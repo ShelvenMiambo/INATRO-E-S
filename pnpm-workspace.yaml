@@ -156,3 +156,5 @@ overrides:
 
 allowBuilds:
   '@embedded-postgres/windows-x64': true
+  sharp: true
+  workerd: true
