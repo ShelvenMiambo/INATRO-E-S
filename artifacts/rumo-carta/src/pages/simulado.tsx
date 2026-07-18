@@ -63,6 +63,7 @@ export default function Simulado() {
       }, 1000);
       return () => clearInterval(timer);
     }
+    return undefined;
   }, [isFinished, questoes, showFeedback]);
 
   // Reset state when new questions load

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useLocation } from 'wouter';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { z } from 'zod/v4';
+import { z } from 'zod';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CarFront, Eye, EyeOff, Loader2, ArrowRight, User } from 'lucide-react';
 import { useAuth } from '@/contexts/auth';
