@@ -1,0 +1,6231 @@
+[
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "fb06ca00fb38.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "A existência de uma berma baixa à esquerda.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "A existência de uma  berma baixa à direita.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "A existência de um terreno falso à direita.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Test_6/image1.png",
+      "Teste_6/image1.png"
+    ],
+    "id": "q0001"
+  },
+  {
+    "question_text": "Qual dos veículos tem prioridade de passagem nesta situação?",
+    "media_type": "foto",
+    "image": null,
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "O veículo vermelho.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "O primeiro que chegar ao cruzamento.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "O veículo amarelo.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Test_6/image5.png",
+      "Teste_6/image5.png"
+    ],
+    "id": "q0002"
+  },
+  {
+    "question_text": "O sinal indica:",
+    "media_type": "sinal",
+    "image": "0a1aa9591de8.png",
+    "category_guess": "Estacionamento",
+    "options": [
+      {
+        "label": "A",
+        "text": "Estacionamento limitado.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Estacionamento proibido.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Estacionamento condicionado.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Test_6/image7.png",
+      "Teste_6/image7.png"
+    ],
+    "id": "q0003"
+  },
+  {
+    "question_text": "Dentro das localidades, pode utilizar os sinais sonoros...",
+    "media_type": "foto",
+    "image": "2a4860686e53.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "durante a noite.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "na aproximação de uma curva.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "só em caso de manifesta necessidade, como um perigo iminente.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "para protestar contra interrupções do trânsito.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Test_6/image9.png",
+      "Teste_6/image10.png"
+    ],
+    "id": "q0004"
+  },
+  {
+    "question_text": "Em acidente de viação com vitima, deixar de prestar ou providenciar socorro, constitui contravenção:",
+    "media_type": "foto",
+    "image": "3751e3bcf72a.png",
+    "category_guess": "Primeiros Socorros",
+    "options": [
+      {
+        "label": "A",
+        "text": "Leve.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Média.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Grave.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Test_6/image10.png"
+    ],
+    "id": "q0005"
+  },
+  {
+    "question_text": "Qual é a validade que tem a carta de condução da categoria B?",
+    "media_type": "foto",
+    "image": "c05ae922ef3c.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dois anos.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Cinco anos.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Três anos.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Dez anos.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Test_6/image11.png",
+      "Teste_6/image11.png"
+    ],
+    "id": "q0006"
+  },
+  {
+    "question_text": "Que deve fazer o condutor perante a marca rodoviária de cor branca?",
+    "media_type": "foto",
+    "image": "1394f866c792.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Pisar ou transpor a linha.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Circular à sua esquerda, quando a linha fizer a separação de sentidos de trânsito.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Abrandar a marcha.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Test_6/image14.png"
+    ],
+    "id": "q0007"
+  },
+  {
+    "question_text": "Num acidente há feridos muito graves. Que deve fazer se não sabe como os ajudar?",
+    "media_type": "foto",
+    "image": "8da321576778.png",
+    "category_guess": "Primeiros Socorros",
+    "options": [
+      {
+        "label": "A",
+        "text": "Não lhes tocar e ligar ao 112.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Abandonar o local e não fazer nada.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Retirar rapidamente os feridos do veículo e levá-los para o hospital mais próximo.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Test_6/image15.png"
+    ],
+    "id": "q0008"
+  },
+  {
+    "question_text": "Quando se considera velocidade excessiva?",
+    "media_type": "foto",
+    "image": "c5e58682523b.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sempre que o condutor não possa fazer parar o veículo no espaço livre visível à sua frente, ou exceda os limites de velocidade fixados nos termos legais.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Só quando o condutor não possa fazer parar o veículo no espaço livre e visível.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Sempre que o condutor ultrapasse os 100 km/h.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Apenas quando o condutor exceda os limites de velocidade fixados nos termos legais.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Test_6/image16.png"
+    ],
+    "id": "q0009"
+  },
+  {
+    "question_text": "O condutor que tenha ficado imobilizado num cruzamento regulado por sinalização luminosa, deve:",
+    "media_type": "foto",
+    "image": "6b4305d9c966.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sair dele, mesmo que não esteja autorizado a avançar e não embarace o trânsito de outros utentes.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Utilizar os sinais sonoros até que o deixem avançar.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Esperar que a sinalização luminosa mude para verde.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Ligar as luzes de perigo e esperar que a sinalização luminosa mude para verde.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Test_6/image18.png",
+      "Teste_21/image11.png"
+    ],
+    "id": "q0010"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "foto",
+    "image": "25b513f1aa1c.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Local de passagem de nível sem guarda com duas ou mais vias.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Local de passagem de nível sem guarda.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Passagem de nível.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Test_6/image19.png"
+    ],
+    "id": "q0011"
+  },
+  {
+    "question_text": "Nesta situação, posso ultrapassar?",
+    "media_type": "foto",
+    "image": "aa43fd0bc4cc.png",
+    "category_guess": "Ultrapassagem",
+    "options": [
+      {
+        "label": "A",
+        "text": "Não.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sim, já que tenho prioridade no cruzamento.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Sim, mas só aos veículos que mudam de direcção para a direita.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Sim, mas só aos veículos de duas rodas.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Test_6/image20.png"
+    ],
+    "id": "q0012"
+  },
+  {
+    "question_text": "Quando os pneus têm uma pressão incorrecta:",
+    "media_type": "foto",
+    "image": "030a4932e383.png",
+    "category_guess": "Mecânica",
+    "options": [
+      {
+        "label": "A",
+        "text": "Desgastam-se menos e têm menos risco de rebentar.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Desgastam-se mais e correm maior risco de rebentar.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Consome-se menos combustível.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Melhora a estabilidade do veículo e o seu conforto.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Test_6/image21.png"
+    ],
+    "id": "q0013"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "4a8d380baf3e.png",
+    "category_guess": "Estacionamento",
+    "options": [
+      {
+        "label": "A",
+        "text": "Parque de estacionamento para veículos com altura acima do normal.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Parque de estacionamento para veículos de emergência.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Parque de estacionamento para miniautocarros.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Test_6/image22.png"
+    ],
+    "id": "q0014"
+  },
+  {
+    "question_text": "Podem deixar de respeitar as regras e os sinais de trânsito os condutores de veículos prioritários?",
+    "media_type": "foto",
+    "image": "272f4ddebd3c.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "Não.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sim, quando a sua missão o exigir, mas devem respeitar as ordens dos agentes reguladores do trânsito.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Sim, incluindo as ordens dos agentes reguladores do trânsito.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Sim, excepto a prioridade de passagem nas intersecções.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image1.png",
+      "Teste_25/image25.png"
+    ],
+    "id": "q0015"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "c0c3e1f1d53c.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Pista obrigatória para veículos de tracção manual.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Pista obrigatória para peões e velocípedes.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Pista obrigatória para peões.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Trânsito proibido a velocípedes e peões.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image2.png",
+      "Teste_32/image23.png"
+    ],
+    "id": "q0016"
+  },
+  {
+    "question_text": "Que devem fazer os condutores se o sinal luminoso desta intersecção está avariado?",
+    "media_type": "foto",
+    "image": "20926c8c883f.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ceder a passagem a todos os condutores que se apresentem pela via transversal.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Ceder a passagem aos condutores que se apresentem pela esquerda.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Ceder a passagem aos condutores que se apresentem pela direita.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Continuar a marcha, já que tenho prioridade de passagem.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image3.png",
+      "Teste_32/image5.png"
+    ],
+    "id": "q0017"
+  },
+  {
+    "question_text": "Qual é a principal causa de acidentes rodoviários?",
+    "media_type": "foto",
+    "image": "c183eb96c43a.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "O Homem.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "A via.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "O veículo.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image4.png",
+      "Teste_32/image16.png"
+    ],
+    "id": "q0018"
+  },
+  {
+    "question_text": "Deixar de indicar com antecedência, mediante gesto regulamentar de braço ou luz indicadora de direcção do veículo, o inicio da marcha, a realização da manobra de parar o veículo, a mudança de direcção ou de faixa de circulação, constitui contravenção:",
+    "media_type": "foto",
+    "image": "4efe59061a5a.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Média.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Grave.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Leve.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image5.png"
+    ],
+    "id": "q0019"
+  },
+  {
+    "question_text": "Se estacionar o veículo na faixa de rodagem desde anoitecer até ao amanhecer, deve utilizar alguma luz?",
+    "media_type": "foto",
+    "image": "5f5ecda026cc.png",
+    "category_guess": "Estacionamento",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sim, as de presença (mínimos), se a iluminação não permite reconhecer o veículo a 100 metros.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Não, mesmo que seja num local sem iluminação.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Sim, as de estrada (máximos).",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Sim, as de cruzamento (médios), se a iluminação não permite reconhecer o veículo a 100 metros.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image6.png",
+      "Teste_32/image17.png"
+    ],
+    "id": "q0020"
+  },
+  {
+    "question_text": "Ao aproximar-se desta passagem para peões, o condutor deve...",
+    "media_type": "foto",
+    "image": "7ac421afd902.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "reduzir a velocidade e parar para deixar passar os peões que já tenham iniciado a travessia da faixa de rodagem.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "fazer sinais com a mão aos peões que esperam para iniciar a travessia.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "aumentar a velocidade para atravessá-la rapidamente.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Buzinar para que os peões não continuem o atravessamento.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image7.png",
+      "Teste_32/image19.png"
+    ],
+    "id": "q0021"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "a7371c97386d.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Trânsito proibido a automóveis ligeiros e motociclos.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Proibição de ultrapassagem.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Trânsito proibido a automóveis ligeiros de passageiros.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_2/image8.png",
+      "Teste_32/image18.png"
+    ],
+    "id": "q0022"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "foto",
+    "image": "3854f81b9d50.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Proibição de exceder a velocidade de 120 km/h de noite.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Proibição de exceder a velocidade de 120 km/h de dia.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Proibição de exceder a velocidade de 120 km/h, transportando substâncias perigosas.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image9.png",
+      "Teste_32/image7.png"
+    ],
+    "id": "q0023"
+  },
+  {
+    "question_text": "Onde é o local mais seguro para instalar no veículo um sistema de retenção para crianças?",
+    "media_type": "foto",
+    "image": "bc27f3773f9d.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "No banco da frente, para que o condutor possa observar a criança.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Qualquer dos assentos traseiros laterais.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "No assento central traseiro, já que é menos afectado pelos impactos laterais.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Qualquer assento, pois todos são igualmente seguros.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image10.png",
+      "Teste_32/image14.png"
+    ],
+    "id": "q0024"
+  },
+  {
+    "question_text": "Entende-se por automóvel ligeiro:",
+    "media_type": "foto",
+    "image": "07430681a4b5.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "O automóvel cuja lotação não excede os 8 lugares.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "O automóvel com PB até 3500 kg e com lotação não superior a 9 lugares, incluindo o condutor.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Todos os automóveis até ao peso de 4500 kg.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image11.png",
+      "Teste_32/image11.png"
+    ],
+    "id": "q0025"
+  },
+  {
+    "question_text": "O documento que titula a habilitação para conduzir automóveis, motociclos, triciclos e quadriciclos, designa-se por:",
+    "media_type": "foto",
+    "image": "a2df0ed50395.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Carta de condução.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Licença de condução.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Licença especial de condução.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Livrete de condução.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image12.png",
+      "Teste_32/image24.png"
+    ],
+    "id": "q0026"
+  },
+  {
+    "question_text": "O que indica o sinal de informação?",
+    "media_type": "foto",
+    "image": "bafec1b4fbad.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Inicio da faixa reservada para táxis do lado esquerdo.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Parque de estacionamento para táxis.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Área reservada para táxis.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_2/image13.png"
+    ],
+    "id": "q0027"
+  },
+  {
+    "question_text": "A distância percorrida desde que o condutor identifica um perigo até que o veículo pare completamente...",
+    "media_type": "foto",
+    "image": "61a4cb6d845b.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "depende apenas do estado dos travões.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "é maior quanto maior for a velocidade.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "depende apenas do estado do condutor.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "só varia se o veículo ou a via estão em mau estado.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image14.png",
+      "Teste_32/image10.png"
+    ],
+    "id": "q0028"
+  },
+  {
+    "question_text": "Nas auto-estradas, é proibido circular a velocidade inferior a...",
+    "media_type": "foto",
+    "image": "503aca70f06d.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "60 km/h.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "50 km/h.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "40 km/h.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "70 km/h.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image15.png",
+      "Teste_32/image3.png"
+    ],
+    "id": "q0029"
+  },
+  {
+    "question_text": "É obrigatorio sinalizar o veículo quando esteja a ser rebocado?",
+    "media_type": "foto",
+    "image": "2acc81782f45.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sim, com as luzes de presença, em todos os casos.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sim, com as luzes de perigo ou, não sendo possível, com as luzes de presença.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Não é obrigátorio, mas é aconselhável utilizar as luzes de perigo.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Sim, com as luzes de perigo e com as de marcha atrás.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image16.png",
+      "Teste_32/image6.png"
+    ],
+    "id": "q0030"
+  },
+  {
+    "question_text": "O sinal, pertence ao grupo de sinais de:",
+    "media_type": "sinal",
+    "image": "2ceb78aeb9b9.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Direcção para auto-estradas.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Pré-sinalização e de direcção.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Direcção.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image17.png",
+      "Teste_32/image12.png"
+    ],
+    "id": "q0031"
+  },
+  {
+    "question_text": "Por que via de trânsito deve circular nesta situação?",
+    "media_type": "foto",
+    "image": "00496a8b4186.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "Pela via mais conveniente ao seu destino.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Pela via da direita.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Pela via mais à esquerda podendo utilizar outra para ultrapassar ou mudar de direcção.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "É indiferente, uma vez que a via não está congestionada.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image18.png",
+      "Teste_32/image13.png"
+    ],
+    "id": "q0032"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "96f73feb4d92.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cruzamento.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Cruzamento com estrada sem prioridade.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Cruzamento com estrada com prioridade.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image19.png",
+      "Teste_32/image2.png"
+    ],
+    "id": "q0033"
+  },
+  {
+    "question_text": "Que comunica o condutor aos outros utentes da via?",
+    "media_type": "foto",
+    "image": "74839aa8ac06.png",
+    "category_guess": "Ultrapassagem",
+    "options": [
+      {
+        "label": "A",
+        "text": "Que afrouxe.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Que pode fazer a ultrapassagem.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Que pare.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image20.png",
+      "Teste_32/image4.png"
+    ],
+    "id": "q0034"
+  },
+  {
+    "question_text": "Que indica o sinal?",
+    "media_type": "sinal",
+    "image": "9981509e729c.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Pavimento escorregadio.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Visibilidade reduzida.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Inicio de estrada alcatroada.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image21.png",
+      "Teste_32/image25.png"
+    ],
+    "id": "q0035"
+  },
+  {
+    "question_text": "Depois do sinal vertical, o condutor:",
+    "media_type": "sinal",
+    "image": "a4a246a02379.png",
+    "category_guess": "Estacionamento",
+    "options": [
+      {
+        "label": "A",
+        "text": "Pode parar o veículo.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Pode estacionar o veículo.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Pode parar e estacionar o veículo.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image22.png",
+      "Teste_32/image9.png"
+    ],
+    "id": "q0036"
+  },
+  {
+    "question_text": "A pressão dos pneus deve ser verificada:",
+    "media_type": "foto",
+    "image": "ac132340b1e9.png",
+    "category_guess": "Mecânica",
+    "options": [
+      {
+        "label": "A",
+        "text": "Apenas quando o veículo é sujeito à Inspecção Periódica Obrigatória.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Apenas quando o condutor pretende efectuar uma viagem.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Regularmente.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Uma vez ao ano.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image23.png",
+      "Teste_32/image8.png"
+    ],
+    "id": "q0037"
+  },
+  {
+    "question_text": "As doenças e os medicamentos, podem ser a causa de um acidente rodoviário?",
+    "media_type": "foto",
+    "image": "fa5b71aca723.png",
+    "category_guess": "Primeiros Socorros",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sim, porque podem afectar a capacidade para conduzir com segurança.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Não, porque os acidentes dependem de outros factores.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Sim, excepto as gripes, constipações ou alergias.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Sim, excepto quando um médico tenha feito a receita.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_2/image24.png",
+      "Teste_32/image21.png"
+    ],
+    "id": "q0038"
+  },
+  {
+    "question_text": "Ao travar, o que é que pode acontecer se os travões actuarem de forma desigual sobre as rodas do mesmo eixo?",
+    "media_type": "foto",
+    "image": "f1ea3e5a0172.png",
+    "category_guess": "Mecânica",
+    "options": [
+      {
+        "label": "A",
+        "text": "As rodas bloqueiam.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "O veículo altera a sua trajectória.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "A distância de paragem diminui.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Melhora a estabilidade do veículo.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_21/image1.png"
+    ],
+    "id": "q0039"
+  },
+  {
+    "question_text": "O condutor, quando mude de direcção, tem que ceder passagem aos peões que estejam a atravessar a faixa de rodagem?",
+    "media_type": "foto",
+    "image": "5d6be11d3ae0.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "Não.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sim.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Sim, mas só aos que o façam pela passagem para peões.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_21/image2.png"
+    ],
+    "id": "q0040"
+  },
+  {
+    "question_text": "O que indica o sinal de perigo?",
+    "media_type": "sinal",
+    "image": "f3138a0cf47c.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Controlo policial por pirilampos.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sinalização luminosa.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Aproximação de uma estrada com prioridade.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_21/image3.png"
+    ],
+    "id": "q0041"
+  },
+  {
+    "question_text": "Das siguentes, qual ou quais não fazem parte das virtudes profissionais necessárias para a boa condução de veículos automóveis:",
+    "media_type": "foto",
+    "image": "e25e5261d2f1.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Egoísmo.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Responsabilidade.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Cortesia e boas maneiras.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Honestidade.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_21/image4.png"
+    ],
+    "id": "q0042"
+  },
+  {
+    "question_text": "De que modo, o consumo de álcool altera o comportamento do condutor?",
+    "media_type": "foto",
+    "image": "3d26a99ca74c.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Diminui o seu tempo de reacção.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Diminui os seus erros na condução.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Aumenta a autoconfiança, e por isso aumentam os riscos.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Reduz a sua agressividade na condução.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_21/image5.png"
+    ],
+    "id": "q0043"
+  },
+  {
+    "question_text": "Nas vias públicas, os peões devem transitar...",
+    "media_type": "foto",
+    "image": "9b4d9ac5733a.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "pela faixa de rodagem, mesmo que existam bermas.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "sempre pelas bermas, mesmo que existam pistas especiais destinadas a eles.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "pelos passeios, pistas ou passagens a eles destinados ou, se não existirem, pelas bermas.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "pelos passeios, se empurram um veículo de tracção manual.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_21/image6.png"
+    ],
+    "id": "q0044"
+  },
+  {
+    "question_text": "Pode uma criança com idade inferior a 3 anos viajar no banco da frente do automóvel?",
+    "media_type": "foto",
+    "image": "cabab7b7df91.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sim, sempre que utilize o cinto de segurança.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Não, em nenhum caso.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Sim, utilizando um sistema de retenção virado para a retaguarda e com a almofada de ar frontal (airbag) do lado do passageiro desactivado.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Sim, quando o automóvel não tenha nenhum cinto de segurança.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_21/image7.png"
+    ],
+    "id": "q0045"
+  },
+  {
+    "question_text": "Para a iluminação da via, os condutores devem ligar as luzes de:",
+    "media_type": "foto",
+    "image": "6c0795f911d3.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Médios ou máximos.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Mínimos ou máximos.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Mínimos ou médios.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_21/image8.png"
+    ],
+    "id": "q0046"
+  },
+  {
+    "question_text": "Nesta via de dois sentidos, posso ultrapassar o veículo azul que assinala a sua intenção de ultrapassar o veículo que o precede?",
+    "media_type": "foto",
+    "image": "a359b300ceda.png",
+    "category_guess": "Ultrapassagem",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sim, pela direita.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sim, pela esquerda.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Não.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Sim, se existir espaço suficiente para os três na faixa de rodagem..",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_21/image9.png"
+    ],
+    "id": "q0047"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "563e4b4a455f.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fim da proibição de circulação de tractores agrícolas.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Trânsito proibido a veículos de construção.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Trânsito proibido a tractores agrícolas.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_21/image10.png"
+    ],
+    "id": "q0048"
+  },
+  {
+    "question_text": "Uma mulher grávida, é obrigada a usar o cinto de segurança?",
+    "media_type": "foto",
+    "image": "3ea2d4051a69.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Não, porque é prejudicial para a criança.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sim e é muito importante que esteja bem colocado porque senão, tanto ela como a criança, podem sofrer lesões graves em caso de acidente.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Não é obrigatório, mas é aconselhável.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Sim, mas apenas fora das cidades.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_21/image12.png"
+    ],
+    "id": "q0049"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "e7bb1616d516.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Trânsito proibido a senhoras.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Paragem obrigatória.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Paragem proibida.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Fim da proibição de estacionamento.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_21/image13.png"
+    ],
+    "id": "q0050"
+  },
+  {
+    "question_text": "O sono pode provocar um accidente durante o dia?",
+    "media_type": "foto",
+    "image": "c1160ef309e1.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Não, esse tipo de acidentes só acontecem à noite.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sim, os acidentes motivados pelo sono também acontecem durante o dia.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Sim, mas só se conduz sob a influência de álcool.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Sim, mas apenas durante as primeiras horas da manhã.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_21/image14.png"
+    ],
+    "id": "q0051"
+  },
+  {
+    "question_text": "Considera-se sob influência de álcool, o condutor que apresente uma taxa de álcool igual ou superior a:",
+    "media_type": "foto",
+    "image": "3ae2f0823215.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.1 mg/l no teste de ar expirado, ou de 0.3 mg/l em teste sanguíneo.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "0.3 mg/l no teste de ar expirado, ou de 0.6 mg/l, em teste sanguíneo.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "0.6 mg/l no teste de ar expirado, ou de 0.9 mg/l em teste sanguíneo.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_21/image15.png"
+    ],
+    "id": "q0052"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "e1d215c41ce5.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Proibição de circular à velocidade máxima de 60 km/h na fila a direita.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Obrigação de circular à velocidade mínima de 60 km/h na fila à direita.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Obrigação de circular à velocidade mínima de 60 km/h na fila à esquerda.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_21/image16.png"
+    ],
+    "id": "q0053"
+  },
+  {
+    "question_text": "O feixe luminoso emitido pelas luzes de cruzamento (médios), deve projectar-se no solo:",
+    "media_type": "foto",
+    "image": "327606699706.png",
+    "category_guess": "Mecânica",
+    "options": [
+      {
+        "label": "A",
+        "text": "E iluminá-lo eficazmente, numa distância não superior a 30 metros.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "E no mínimo, iluminá-lo a 100 metros.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "E iluminá-lo eficazmente, numa distância não superior a 50 metros.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_22/image1.png"
+    ],
+    "id": "q0054"
+  },
+  {
+    "question_text": "Durante o exame para obter a carta de condução, a responsabilidade pelas contravenções praticadas, é do:",
+    "media_type": "foto",
+    "image": "53258b149e52.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Instrutor.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Examinador.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Examinando.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_22/image2.png"
+    ],
+    "id": "q0055"
+  },
+  {
+    "question_text": "Quando o condutor tem uma distracção…",
+    "media_type": "foto",
+    "image": "367e91b906d9.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "aumenta inconscientemente a velocidade do veículo.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "deve avisar com as luzes de perigo.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "demora mais tempo em reagir.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "demora menos tempo em obter as informações necessárias para conduzir com segurança.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_22/image3.png"
+    ],
+    "id": "q0056"
+  },
+  {
+    "question_text": "Que indica a marca rodoviária?",
+    "media_type": "foto",
+    "image": "8c8e17064645.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Passagem para ciclistas.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Linha de cedência de prioridade.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Passagem para peões.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_22/image4.png"
+    ],
+    "id": "q0057"
+  },
+  {
+    "question_text": "Qual é a velocidade instantânea que não devem exceder os condutores de ciclomotores e quadriciclos dentro das localidades?",
+    "media_type": "foto",
+    "image": "7790b4066345.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "45 km/h.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "50 km/h.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "60 km/h.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "40 km/h.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_22/image5.png"
+    ],
+    "id": "q0058"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "f88ef2d7ee73.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fim da fila de trânsito à esquerda.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Convergência de filas de trânsito.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Fim da fila de trânsito à direita.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_22/image6.png"
+    ],
+    "id": "q0059"
+  },
+  {
+    "question_text": "Que efeitos tem a fadiga na condução?",
+    "media_type": "foto",
+    "image": "4ce93a18e771.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reduz o tempo de reacção do condutor.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Diminui a sensibilidade ao encandeamento.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Reduz a capacidade de concentração e a segurança.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Melhora a atenção do condutor.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_22/image7.png"
+    ],
+    "id": "q0060"
+  },
+  {
+    "question_text": "O que indica o sinal luminoso?",
+    "media_type": "foto",
+    "image": "64bacb61a084.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Acesso ou passagem autorizado.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Acesso ou passagem condicionado.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Acesso ou passagem interdito.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_22/image8.png",
+      "Teste_23/image10.png"
+    ],
+    "id": "q0061"
+  },
+  {
+    "question_text": "A condução urbana, caracteriza-se essencialmente:",
+    "media_type": "foto",
+    "image": "2aa98d0237d9.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Pela abundância de sinais luminosos.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Pela ausência de regras de trânsito.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Por uma grande intensidade de trânsito.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Pela pouca presença de peões.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_22/image9.png"
+    ],
+    "id": "q0062"
+  },
+  {
+    "question_text": "Os automóveis ligeiros de passageiros, devem estar equipados com sinais de pré-sinalização de perigo?",
+    "media_type": "foto",
+    "image": "9bea80b31341.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sim, um colete reflector e um triangulo de pré-sinalização de perigo.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Não.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Sim, dois triangulos de pré-sinalização de perigo e um colete reflector.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Sim, apenas são obrigatórios dois triangulos de pré-sinalização de perigo.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_22/image10.png"
+    ],
+    "id": "q0063"
+  },
+  {
+    "question_text": "Se o condutor que me precede assinala a manobra de mudança de direcção para a direita, posso ultrapassar?",
+    "media_type": "foto",
+    "image": "07a483a90695.png",
+    "category_guess": "Ultrapassagem",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sim, pela esquerda, certificando-se que o pode fazer sem perigo de acidente.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Sim, pela direita.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Não.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Sim, pela direita ou pela esquerda, sempre que o veículo não esteja em movimento.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_22/image11.png"
+    ],
+    "id": "q0064"
+  },
+  {
+    "question_text": "Conduzir sob influência de álcool, sob efeitos de substâncias legalmente consideradas como estupefacientes ou psicotrópicas, constitui contravenção:",
+    "media_type": "foto",
+    "image": "c6d1b1aabc09.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Leve.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Média.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Grave.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_22/image12.png",
+      "Teste_4/image4.png"
+    ],
+    "id": "q0065"
+  },
+  {
+    "question_text": "Uma criança de 8 anos, como deve viajar num automóvel equipado com cintos de segurança em todos os lugares?",
+    "media_type": "foto",
+    "image": "b2893c360ec1.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "No banco da frente, com um sistema de retenção homologado e adaptado ao seu tamanho e peso.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "É indiferente, sempre que utilize um sistema de retenção homologado e adaptado ao seu tamanho e peso.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "No banco da retaguarda, com um sistema de retenção homologado e adaptado ao seu tamanho e peso.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Basta utilizar o cinto de segurança do banco da retaguarda.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_22/image13.png"
+    ],
+    "id": "q0066"
+  },
+  {
+    "question_text": "Para manter a segurança do veículo, devem ser revistos periodicamente:",
+    "media_type": "foto",
+    "image": "5ea34a9bce34.png",
+    "category_guess": "Mecânica",
+    "options": [
+      {
+        "label": "A",
+        "text": "Os pneus, amortecedores e travões.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "As luzes, espelhos e o sistema de escape.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "A bateria, o filtro de óleo e o do ar.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "O sistema de som.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_22/image14.png"
+    ],
+    "id": "q0067"
+  },
+  {
+    "question_text": "De que modo deve verificar o nível de óleo do motor?",
+    "media_type": "foto",
+    "image": "c00511c6bba8.png",
+    "category_guess": "Mecânica",
+    "options": [
+      {
+        "label": "A",
+        "text": "Com o motor quente.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Com o motor ligado.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Com o motor parado e frio.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_22/image15.png"
+    ],
+    "id": "q0068"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "foto",
+    "image": "633c0cb0e247.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sentido obrigatório giratório.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Sentidos obrigatórios possíveis.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Sentido obrigatório para à direita.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_22/image16.png"
+    ],
+    "id": "q0069"
+  },
+  {
+    "question_text": "Diante do sinal, é proibido:",
+    "media_type": "foto",
+    "image": "5cb8f5b05e15.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mudar de direcção para à direita.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Mudar de direcção para à esquerda.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Inverter o sentido de marcha.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_22/image17.png"
+    ],
+    "id": "q0070"
+  },
+  {
+    "question_text": "O sinal de cor amarela e preta, indica:",
+    "media_type": "foto",
+    "image": "dfaad76b8d02.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Barricada.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Baia indicadora de separador físico.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Baia limitadora de altura.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_22/image18.png"
+    ],
+    "id": "q0071"
+  },
+  {
+    "question_text": "Pode transportar bebidas alcoólicas na parte do veículo reservada aos passageiros?",
+    "media_type": "foto",
+    "image": "a4599bbe8b1f.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sim, se o condutor não estiver sob influência de álcool.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sim, sempre que o condutor não tome nada de álcool.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Sim.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Não, já que é proibido o porte e transporte de bebidas alcoólicas nesta parte do veículo.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_22/image20.png"
+    ],
+    "id": "q0072"
+  },
+  {
+    "question_text": "Não sendo o homem um ser isolado, mas sim que vive em contacto com pessoas iguais a si, os deveres para com os seus semelhantes podem ser:",
+    "media_type": "foto",
+    "image": "218f2445e56e.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "De justiça e de caridade.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "De respeito e de liberdade.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "De dignidade e de integridade física.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_22/image21.png"
+    ],
+    "id": "q0073"
+  },
+  {
+    "question_text": "Se pretender inverter o sentido de marcha, deve ter em conta…",
+    "media_type": "foto",
+    "image": "7e2fc18725e9.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "que a manobra deve ser feita em local e de forma a não prejudicar o trânsito.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "que só é permitido fazê-lo nas rotundas.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "que é proibido fazê-lo em todos os cruzamentos e entroncamentos.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "que é proibido fazê-lo dentro das localidades.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_22/image22.png"
+    ],
+    "id": "q0074"
+  },
+  {
+    "question_text": "O condutor do veículo amarelo ao mudar de direcção para a direita, a quem deve ceder a passagem?",
+    "media_type": "foto",
+    "image": "8d4cd3a0479f.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "Apenas aos condutores que se apresentem pela direita.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "A todos os condutores que circulem pela via transversal.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Só aos condutores que circulam em sentido contrário e sigam em frente.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Aos que circulam em sentido contrário e pretendam seguir em frente ou mudar de direcção para a esquerda.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_22/image23.png"
+    ],
+    "id": "q0075"
+  },
+  {
+    "question_text": "Com que frequência deve verificar o condutor a pressão dos pneus do seu veículo?",
+    "media_type": "foto",
+    "image": "28da65fb06fb.png",
+    "category_guess": "Mecânica",
+    "options": [
+      {
+        "label": "A",
+        "text": "Duas vezes por mês, quando os pneus estão frios.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Apenas ao fazer uma viagem longa.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Duas vezes por mês, quando os pneus estão quentes.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Não é necessário verificar a pressão dos pneus.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_22/image24.png",
+      "Teste_5/image1.png"
+    ],
+    "id": "q0076"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "7e721405ff85.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Desvio da fila de trânsito para a esquerda.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Desvio da fila de trânsito para a direita.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Desvio e aumento de filas de trânsito para a esquerda.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_23/image1.png"
+    ],
+    "id": "q0077"
+  },
+  {
+    "question_text": "Qual é a função do cinto de segurança de um veículo?",
+    "media_type": "foto",
+    "image": "ec437d2d9651.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Manter os ocupantes sentados na posição correcta.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Reter e proteger os ocupantes numa colisão.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Permitir que os ocupantes se desloquem sobre o assento em caso de acidente.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Apenas impedir as lesões do condutor em caso de capotagem.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_23/image2.png"
+    ],
+    "id": "q0078"
+  },
+  {
+    "question_text": "O que significa responsabilidade moral?",
+    "media_type": "foto",
+    "image": "7a6fe1e66a77.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Responder perante o Tribunal.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Responder pelos seus próprios actos.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Prestar contas perante os membros da sociedade.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_23/image3.png"
+    ],
+    "id": "q0079"
+  },
+  {
+    "question_text": "Diante do sinal, o condutor fica a saber que:",
+    "media_type": "sinal",
+    "image": "66e986cd0292.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Deve utilizar os sinais sonoros.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "É obrigado a desligar as luzes de estrada.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Não pode utilizar os sinais sonoros.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_23/image4.png"
+    ],
+    "id": "q0080"
+  },
+  {
+    "question_text": "Que indica a marca rodoviária?",
+    "media_type": "foto",
+    "image": "5f5c1b163b8d.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Linha de cedência de prioridade com símbolo triangular.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Linha de paragem obrigatória com stop.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Linha de paragem obrigatória.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_23/image5.png"
+    ],
+    "id": "q0081"
+  },
+  {
+    "question_text": "O que deve fazer o condutor que circula por uma auto-estrada?",
+    "media_type": "foto",
+    "image": "ef4c79d9ebad.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Diminuir a distância de segurança, por se seguir a velocidades elevadas.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Aumentar a distância de segurança, por se seguir a velocidades mais elevadas.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Circular pela via de trânsito mais à direita, ainda que a via da esquerda se encontre livre de trânsito.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_23/image6.png"
+    ],
+    "id": "q0082"
+  },
+  {
+    "question_text": "Fora das localidades, os condutores de ciclomotores e quadriciclos, não devem exceder a velocidade instantânea de:",
+    "media_type": "foto",
+    "image": "338ecc4ba6ae.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "50 km/h.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "40 km/h.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "45 km/h.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "35 km/h.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_23/image7.png"
+    ],
+    "id": "q0083"
+  },
+  {
+    "question_text": "Nesta situação, quem tem prioridade de passagem?",
+    "media_type": "foto",
+    "image": "f942aafe7d2f.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "O condutor que entra na rotunda.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "O condutor que circula dentro da rotunda.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "O condutor que chegar primeiro.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "O condutor que circule com uma velocidade mais elevada.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_23/image8.png"
+    ],
+    "id": "q0084"
+  },
+  {
+    "question_text": "É perigoso conduzir quando o condutor está cansado?",
+    "media_type": "foto",
+    "image": "85889de8c657.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Não há perigo, já que o cansaço relaxa.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Não, porque se conduz mais devagar.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Sim, porque o condutor demora mais tempo a reagir.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Sim, mais só quando se conduz dentro das localidades.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_23/image9.png"
+    ],
+    "id": "q0085"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "foto",
+    "image": "ad818774a04d.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sinalização luminosa.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Passagem de nível.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Sinalização luminosa em manutenção.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_23/image11.png"
+    ],
+    "id": "q0086"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "35505866e3c4.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Indica a existência de uma via rápida.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Indica a existência de uma Auto-Estrada.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Indica a existência de uma via de sentido único.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_23/image12.png"
+    ],
+    "id": "q0087"
+  },
+  {
+    "question_text": "Transitar com o veículo em velocidade inferior á metade da velocidade máxima estabelecida para a via, retardando ou obstruindo o trânsito, constitui contravenção:",
+    "media_type": "foto",
+    "image": "2856aa9604b0.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Leve.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Grave.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Média.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_23/image13.png",
+      "Teste_3/image10.png"
+    ],
+    "id": "q0088"
+  },
+  {
+    "question_text": "Que veículos devem ter o seguro de responsabilidade civil para transitar na via pública?",
+    "media_type": "foto",
+    "image": "142187500105.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Os veículos a motor.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Todos os veículos.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Só os ciclomotores.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Apenas os veículos automóveis.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_23/image14.png"
+    ],
+    "id": "q0089"
+  },
+  {
+    "question_text": "Podem ser submetidos às provas para a detecção de álcool ou substâncias estupefacientes ou psicotrópicas:",
+    "media_type": "foto",
+    "image": "bc2531ce6b36.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Apenas os condutores de veículos automóveis.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Os peões, sempre que sejam intervenientes em acidentes de trânsito e os condutores.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Todos os condutores e peões que transitem pela via pública.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Só os condutores que sejam intervenientes em acidentes de trânsito.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_23/image15.png"
+    ],
+    "id": "q0090"
+  },
+  {
+    "question_text": "Que deve fazer o condutor de um veículo avariado enquanto não for devidamente estacionado ou removido?",
+    "media_type": "foto",
+    "image": "8d60d8ce36f0.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Colocar os sinais de pré-sinalização de perigo e depois vestir o colete reflector.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Colocar um sinal de pré-sinalização de perigo 5 metros à frente do veículo.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Adoptar as medidas necessárias para que os outros se apercebam da sua presença.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Colocar um sinal de pré-sinalização de perigo 10 metros à retaguarda do veículo.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_23/image16.png"
+    ],
+    "id": "q0091"
+  },
+  {
+    "question_text": "A luz de cruzamento (médios), destina-se a iluminar a via para frente do veículo numa distância até:",
+    "media_type": "foto",
+    "image": "a2a47a215838.png",
+    "category_guess": "Mecânica",
+    "options": [
+      {
+        "label": "A",
+        "text": "30 metros.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "40 metros.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "50 metros.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "60 metros.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_23/image17.png"
+    ],
+    "id": "q0092"
+  },
+  {
+    "question_text": "Posso mudar de direcção para a direita nesta situação?",
+    "media_type": "foto",
+    "image": "ee2503f30cc2.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sim, desde que o assinale com a devida antecedência.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sim, porque não há nenhuma sinalização que o impeça.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Não, porque não é possível assegurar-se que a manobra pode ser realizada sem perigo.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_23/image18.png"
+    ],
+    "id": "q0093"
+  },
+  {
+    "question_text": "Um torniquete é…",
+    "media_type": "foto",
+    "image": "187072db850a.png",
+    "category_guess": "Primeiros Socorros",
+    "options": [
+      {
+        "label": "A",
+        "text": "um pedaço de pau curto amarrado em torno de um membro.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "um pedaço de papel onde se menciona a parte do corpo que foi amarrada.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "uma tira larga de pano, amarrada firmemente em torno de um membro.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "uma peça de madeira, utilizada para aliviar a dor da vítima de acidente.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_23/image19.png"
+    ],
+    "id": "q0094"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "e750255bef21.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Proibição de circulação de peões.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Prioridade de passagem para peões.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Proibição de passagem de peões.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Pista obrigatória para peões.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_23/image20.png"
+    ],
+    "id": "q0095"
+  },
+  {
+    "question_text": "É necessário verificar com frequência o sistema de iluminação?",
+    "media_type": "foto",
+    "image": "06af32f7466c.png",
+    "category_guess": "Mecânica",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sim, para se assegurar que todas as luzes funcionam e que os faróis estão bem regulados.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Sim, mudando todos os fusíveis.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Não, porque se deve fazer unicamente numa oficina.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Não, é suficiente a revisão na inspecção periódica obrigatória.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_23/image21.png"
+    ],
+    "id": "q0096"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "foto",
+    "image": "0f7b1dda4b20.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Via obrigatória para veículos que transportam substâncias perigosas.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Fim da proibição de circulação de veículos que transportam substâncias perigosas.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Via obrigatória para automóveis pesados.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_23/image22.png"
+    ],
+    "id": "q0097"
+  },
+  {
+    "question_text": "Para garantir uma proteção adequada, os sistemas de retenção de crianças devem ser:",
+    "media_type": "foto",
+    "image": "bc27f3773f9d.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Da cor dos estofos do veículo.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Adequados ao tamanho e peso da criança.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Colocados sem cautela em cima dos bancos do veículo.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_23/image23.png"
+    ],
+    "id": "q0098"
+  },
+  {
+    "question_text": "Na situação apresentada, pode ultrapassar o veículo pela esquerda?",
+    "media_type": "foto",
+    "image": "419d6b646d17.png",
+    "category_guess": "Ultrapassagem",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sim, se esse veículo circula por baixo do limite máximo de velocidade.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sim, pode-se sempre ultrapassar pela esquerda.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Não.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Sim, porque a linha é descontinua.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_23/image24.png"
+    ],
+    "id": "q0099"
+  },
+  {
+    "question_text": "A que altura deve ficar a parte central do encosto de cabeça, para garantir uma protecção eficaz em caso de acidente rodoviário?",
+    "media_type": "foto",
+    "image": "3df3cfae738b.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "À altura do pescoço.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "O mais baixo possível.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "À altura dos olhos.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Por cima da cabeça.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_25/image1.png"
+    ],
+    "id": "q0100"
+  },
+  {
+    "question_text": "O agente regulador de trânsito que aparece na fotografia, manda:",
+    "media_type": "foto",
+    "image": "69f9148d72fc.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "Avançar o tráfego que venha da esquerda.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Avançar o tráfego que venha da direita.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Parar o tráfego que venha da direita.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_25/image2.png"
+    ],
+    "id": "q0101"
+  },
+  {
+    "question_text": "Que deve fazer o condutor perante a marca rodoviária que delimita a via de trânsito da esquerda?",
+    "media_type": "foto",
+    "image": "a9ac475f4bb9.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Aumentar a velocidade, se circula pela via de trânsito que delimita.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Abrandar a marcha, se circula pela via de trânsito que delimita.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Parar.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Abrandar a marcha, se circula pela via de trânsito da direita.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_25/image3.png"
+    ],
+    "id": "q0102"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "b4a784e3a988.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Proibição de parar.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Proibição de circulação de vendedores.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Proibição de pedir boleia.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_25/image4.png"
+    ],
+    "id": "q0103"
+  },
+  {
+    "question_text": "É proibido estacionar...",
+    "media_type": "foto",
+    "image": "06d773a39c9a.png",
+    "category_guess": "Estacionamento",
+    "options": [
+      {
+        "label": "A",
+        "text": "em cima dos passeios.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "de noite, nas faixas de rodagem das localidades.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "a 50 metros das passagens de nível.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "no lado da faixa de rodagem em que esteja uma linha contínua de cor branca.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_25/image5.png"
+    ],
+    "id": "q0104"
+  },
+  {
+    "question_text": "Se conduz muito tempo sem descansar...",
+    "media_type": "foto",
+    "image": "5a430a30f921.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "aumenta a atenção do condutor.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "a condução torna-se perigosa.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "aumenta a segurança.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "o condutor relaxa-se e conduz melhor.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_25/image6.png"
+    ],
+    "id": "q0105"
+  },
+  {
+    "question_text": "Que luz aparece antes de acender a luz amarela de um semáforo?",
+    "media_type": "foto",
+    "image": "7be59edb65fa.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "A luz vermelha.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "A luz amarela intermitente.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "A luz verde.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_25/image7.png"
+    ],
+    "id": "q0106"
+  },
+  {
+    "question_text": "É necessário verificar o nível do líquido de travão com frequência?",
+    "media_type": "foto",
+    "image": "28802485f7a1.png",
+    "category_guess": "Mecânica",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sim, mas não precisa de ser substituído.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sim e deve ser substituído dentro do período indicado pelo fabricante.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Não, porque não se desgasta com o uso.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Sim, para juntar óleo do motor em caso de necessidade.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_25/image8.png"
+    ],
+    "id": "q0107"
+  },
+  {
+    "question_text": "Qual dos seguintes procedimentos causa maior distração durante a condução?",
+    "media_type": "foto",
+    "image": "79a8826a3cb5.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Observar os sinais.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Ouvir a rádio.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Utilizar o telefone móvel.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Sinalizar as manobras.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_25/image9.png"
+    ],
+    "id": "q0108"
+  },
+  {
+    "question_text": "Os condutores de motociclos, ciclomotores ou velocípedes, podem circular a par nesta estrada?",
+    "media_type": "foto",
+    "image": "70df1227e36e.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Não.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Sim.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Sim, se não causarem perigo ou embaraço ao trânsito.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Só os de velocípedes.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_25/image10.png"
+    ],
+    "id": "q0109"
+  },
+  {
+    "question_text": "Os jovens, têm mais possibilidades de ter acidentes rodoviários?",
+    "media_type": "foto",
+    "image": "f30e020b5a10.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sim, devido à falta de reflexos.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sim, a sua visão é mais reduzida.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Sim, normalmente fazem uma avaliação incorrecta dos riscos.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Não.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_25/image11.png"
+    ],
+    "id": "q0110"
+  },
+  {
+    "question_text": "Têm prioridade de passagem os condutores:",
+    "media_type": "foto",
+    "image": "600cafc32837.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "que saiam de um prédio ou caminho particular.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "que transitem pelas auto-estradas, em relação aos veículos que se apresentem pelos ramais de acesso.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "que entrem numa auto-estrada pelos respectivos ramais de acesso.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "que entrem numa rotunda.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_25/image12.png"
+    ],
+    "id": "q0111"
+  },
+  {
+    "question_text": "A idade mínima para poder obter a carta de condução da categoria B, é...",
+    "media_type": "foto",
+    "image": "a2df0ed50395.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "16 anos.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "21 anos.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "18 anos.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "25 anos.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_25/image13.png"
+    ],
+    "id": "q0112"
+  },
+  {
+    "question_text": "Considera-se ultrapassagem quando:",
+    "media_type": "foto",
+    "image": "4a8ee21aa47c.png",
+    "category_guess": "Ultrapassagem",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dois veículos, circulando na mesma fila, o que se encontra atrás passa para diante do outro.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Os condutores que saiam de qualquer parque de estacionamento cedem passagem aos outros utentes da via.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Os condutores iniciam a marcha, certificando-se de que podem fazê-lo, sem perigo de colidir com um veículo animal que transite no mesmo sentido.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_25/image14.png"
+    ],
+    "id": "q0113"
+  },
+  {
+    "question_text": "Que entende-se por consciência moral?",
+    "media_type": "foto",
+    "image": "7de3ff112c59.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "A capacidade de o indivíduo interpretar os sinais de trânsito.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "A faculdade de a pessoa distinguir entre o bem e o mal, de julgar os seus actos e de adoptar uma determinada forma de conduta.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "A faculdade de permitir a passagem dos peões na mudança de direcção para a esquerda.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_25/image15.png"
+    ],
+    "id": "q0114"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "1cc6f8d86bfe.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Indica a existência de uma Igreja.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Indica a existência de um cemitério.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Indica a existência de um cemitério histórico.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_25/image16.png"
+    ],
+    "id": "q0115"
+  },
+  {
+    "question_text": "Num automóvel, as luzes mínimas e as de presença, devem estar colocadas:",
+    "media_type": "foto",
+    "image": "3778cf1d3ef6.png",
+    "category_guess": "Mecânica",
+    "options": [
+      {
+        "label": "A",
+        "text": "Duas à frente e duas atrás.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Somente duas à frente.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Duas à frente e uma atrás.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_25/image17.png"
+    ],
+    "id": "q0116"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "2a6a0602909e.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Trânsito proibido a veículos de peso total superior a 2 toneladas.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Trânsito proibido a veículos de peso por eixo inferior a 2 toneladas.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Trânsito proibido a veículos de peso por eixo superior a 2 toneladas.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_25/image18.png"
+    ],
+    "id": "q0117"
+  },
+  {
+    "question_text": "O sinal realizado pelo operador da obra, indica:",
+    "media_type": "foto",
+    "image": "c85c9278a17d.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Aproximação de uma estrada com prioridade.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Paragem obrigatória em quatro vias.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Paragem obrigatória.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Avance.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_25/image19.png"
+    ],
+    "id": "q0118"
+  },
+  {
+    "question_text": "Nas estradas com dois sentidos de circulação, que devem fazer os condutores que pretendam mudar de direcção para a direita?",
+    "media_type": "foto",
+    "image": "cffb9cf60fc5.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "Chegar-se o mais possível para a esquerda.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Aproximar-se com a devida antecedência do eixo da via.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Efectuar a manobra de modo a dar a direita à parte central do cruzamento ou entroncamento.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Aproximar-se com a necessária antecedência do limite direito da faixa de rodagem.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_25/image20.png"
+    ],
+    "id": "q0119"
+  },
+  {
+    "question_text": "O que se entende por inconsciência?",
+    "media_type": "foto",
+    "image": "4ad24aeb7202.png",
+    "category_guess": "Primeiros Socorros",
+    "options": [
+      {
+        "label": "A",
+        "text": "O estado no qual o cérebro não está a funcionar bem.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "O estado em que o peito da vítima de acidente de viação, desce e sobe regularmente.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "A perda de sangue, resultante da abertura dos vasos sanguíneos.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "O aumento da frequência das pulsações por minuto.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_25/image21.png"
+    ],
+    "id": "q0120"
+  },
+  {
+    "question_text": "O condutor dum ciclomotor, pode levar o capacete mal ajustado e apertado?",
+    "media_type": "foto",
+    "image": "e3d659da5e53.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Não, porque não garante uma protecção eficaz em caso de acidente.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Sim, sempre que seja um modelo aprovado oficialmente.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Sim, ainda seja um modelo não aprovado oficialmente.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Sim, já que não é obrigatório para os condutores de ciclomotores.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_25/image22.png"
+    ],
+    "id": "q0121"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "afb7b1a9aa55.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Faixa reservada para veículos de deficientes.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Parque de estacionamento para veículos de deficientes.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Área reservada para deficientes.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_25/image23.png"
+    ],
+    "id": "q0122"
+  },
+  {
+    "question_text": "Para conduzir com segurança, deve moderar especialmente a velocidade...",
+    "media_type": "foto",
+    "image": "f4e06b547ab5.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "só nas pontes, túneis e passagens de nível.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "nos cruzamentos e entroncamentos nos que tenha prioridade de passagem.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "nas curvas, lombas e outros locais de visibilidade reduzida.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "nos locais assinalados com sinais de obrigação.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_25/image24.png"
+    ],
+    "id": "q0123"
+  },
+  {
+    "question_text": "O que indica o sinal de perigo?",
+    "media_type": "foto",
+    "image": "9466d49e7d63.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Passagem de nível com guarda.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Local de passagem de nível sem guarda.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Passagem de nível sem guarda com duas ou mais vias.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_28/image1.png",
+      "Teste_5/image3.png"
+    ],
+    "id": "q0124"
+  },
+  {
+    "question_text": "A carta de condução, tem tempo de validade?",
+    "media_type": "foto",
+    "image": "c05ae922ef3c.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Não.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Só as sub categorias P, D e G.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Sim, cinco anos para as categorias A1, A, B, C1 e C.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Sim, dois anos para as categorias A1, A, B, C1 e C.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_28/image2.png",
+      "Teste_5/image18.png"
+    ],
+    "id": "q0125"
+  },
+  {
+    "question_text": "Transitar em sentido oposto ao estabelecido, constitui contravenção:",
+    "media_type": "foto",
+    "image": "8fcf55eb277e.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Grave.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Leve.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Média.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_28/image3.png"
+    ],
+    "id": "q0126"
+  },
+  {
+    "question_text": "O que deve fazer o condutor perante este sinal?",
+    "media_type": "foto",
+    "image": "ecb73a06fc8c.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Circular acima de 80 km/h.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Circular a uma velocidade que vá até os 80 km/h.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Transitar com veículos cujo peso total não ultrapasse 80 toneladas.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_28/image4.png",
+      "Teste_5/image9.png"
+    ],
+    "id": "q0127"
+  },
+  {
+    "question_text": "Entende-se por prioridade de passagem:",
+    "media_type": "foto",
+    "image": "8648966f79d1.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "A obrigação que o condutor tem de imobilizar o veículo num cruzamento com sinal de paragem obrigatória.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "O direito que o condutor tem de passar em primeiro lugar.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "A movimentação de veículos e animais nas vias de comunicação rodoviária.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_28/image5.png",
+      "Teste_5/image11.png"
+    ],
+    "id": "q0128"
+  },
+  {
+    "question_text": "Salvo no caso de perigo iminente, que deve fazer o condutor se tem que diminuir subitamente a velocidade do veículo?",
+    "media_type": "foto",
+    "image": "620d6727cd24.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Advertir com sinais sonoros.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Utilizar as luzes indicadoras de mudança de direcção para a direita.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Certificar-se que não resulta perigoso, nomeadamente para os condutores dos veículos que o sigam.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Apenas utilizar as luzes de perigo.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_28/image6.png",
+      "Teste_5/image5.png"
+    ],
+    "id": "q0129"
+  },
+  {
+    "question_text": "Pode ultrapassar veículos que estejam a ultrapassar outros?",
+    "media_type": "foto",
+    "image": "b1051e80f2ee.png",
+    "category_guess": "Ultrapassagem",
+    "options": [
+      {
+        "label": "A",
+        "text": "Não, mesmo que sejam possíveis três ou mais filas de trânsito no mesmo sentido.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sim, mesmo que utilize a parte da faixa de rodagem reservada ao trânsito em sentido contrário.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Não, a menos que não seja necessário utilizar a parte da faixa de rodagem reservada ao trânsito em sentido contrário.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Sim, sempre que o sinalize com a necessária antecedência.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_28/image7.png",
+      "Teste_5/image16.png"
+    ],
+    "id": "q0130"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "5cb9bad57d5e.png",
+    "category_guess": "Estacionamento",
+    "options": [
+      {
+        "label": "A",
+        "text": "Área reservada para miniautocarros.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Área reservada para veículos de emergência.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Área reservada para veículos com dimensões anormais.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_28/image8.png",
+      "Teste_5/image12.png"
+    ],
+    "id": "q0131"
+  },
+  {
+    "question_text": "O agente regulador de trânsito, manda:",
+    "media_type": "foto",
+    "image": "ebf52c45e618.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "Parar o tráfego que venha da retaguarda e da frente.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Avançar o tráfego da esquerda.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Parar o tráfego que venha da retaguarda.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_28/image9.png",
+      "Teste_5/image21.png"
+    ],
+    "id": "q0132"
+  },
+  {
+    "question_text": "Num automóvel, é obrigatório a utilização de cintos de segurança:",
+    "media_type": "foto",
+    "image": "551a0c24592a.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dentro e fora das localidades.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Apenas fora das localidades.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Apenas dentro das localidades.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_28/image10.png",
+      "Teste_5/image10.png"
+    ],
+    "id": "q0133"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "d5c1a45d60c6.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cascata.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Águas termais.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Águas interiores.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_28/image11.png",
+      "Teste_5/image2.png"
+    ],
+    "id": "q0134"
+  },
+  {
+    "question_text": "O estado emocional do condutor, é um factor de ordem interna, que influência:",
+    "media_type": "foto",
+    "image": "dd30855daa0e.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Apenas a distância de travagem.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Apenas a distância de segurança.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "O tempo de reacção e a distância de travagem.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_28/image12.png",
+      "Teste_5/image22.png"
+    ],
+    "id": "q0135"
+  },
+  {
+    "question_text": "Que entende-se por dever?",
+    "media_type": "foto",
+    "image": "25cd099bc820.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "A obrigação de avançar rapidamente, logo que o sinal verde do semáforo assim o permita.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "A intenção de iniciar a marcha sem a devida sinalização.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "A obrigação moral de proceder de acordo com as normas e a consciência.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_28/image13.png",
+      "Teste_5/image6.png"
+    ],
+    "id": "q0136"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "0404afe6a372.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Prioridade nas passagens estreitas.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Fim da fila de trânsito à esquerda.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Dar prioridade nas passagens estreitas.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_28/image14.png",
+      "Teste_5/image19.png"
+    ],
+    "id": "q0137"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "foto",
+    "image": "945bc8d60789.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "A existência de um acidente na via.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "A existência de uma oficina.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "A existência de uma berma baixa do lado esquerdo.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_28/image15.png",
+      "Teste_5/image24.png"
+    ],
+    "id": "q0138"
+  },
+  {
+    "question_text": "A maioria dos acidentes de trânsito são devidos...",
+    "media_type": "foto",
+    "image": "2acc81782f45.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "às condições do veículo.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "às pessoas.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "às condições da estrada.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "às condições metereológicas ou ambientais.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_28/image16.png",
+      "Teste_5/image17.png"
+    ],
+    "id": "q0139"
+  },
+  {
+    "question_text": "Nesta estrada de duplo sentido de circulação, como deve circular?",
+    "media_type": "foto",
+    "image": "5f4f2cdf3374.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "Pelo centro, já que não existe linha que delimite os sentidos da circulação.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Pela esquerda e o mais próximo possível do eixo da faixa de rodagem.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Pela esquerda e mantendo uma distância lateral suficiente para evitar acidentes.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Pela direita.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_28/image17.png",
+      "Teste_5/image20.png"
+    ],
+    "id": "q0140"
+  },
+  {
+    "question_text": "A que grupo pertence a marca rodoviária branca?",
+    "media_type": "foto",
+    "image": "905c7b42f14a.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Marcas transversais.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Marcas orientadoras de sentidos de trânsito.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Marcas longitudinais.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_28/image18.png",
+      "Teste_5/image8.png"
+    ],
+    "id": "q0141"
+  },
+  {
+    "question_text": "Nos dias quentes, é recomendável...",
+    "media_type": "foto",
+    "image": "65074ef9b6f3.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "fazer menos descansos durante a viagem, para chegar ao destino o mais rapidamente possível.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "efectuar mais descansos durante uma viagem, porque a fadiga e o sono aparecem mais facilmente.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "evitar conduzir com o ar condicionado ligado.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "evitar tomar bebidas como água ou sumos naturais.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_28/image19.png",
+      "Teste_5/image15.png"
+    ],
+    "id": "q0142"
+  },
+  {
+    "question_text": "Para auxiliar uma vítima de um acidente rodoviário, deve dar-lhe alimentos ou bebidas?",
+    "media_type": "foto",
+    "image": "862aa27cc657.png",
+    "category_guess": "Primeiros Socorros",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sim, se ele o pedir.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Não, só se pode dar medicamentos tranquilizantes.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Não.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Só bebidas.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_28/image20.png",
+      "Teste_5/image7.png"
+    ],
+    "id": "q0143"
+  },
+  {
+    "question_text": "Os sistemas de segurança passiva dos veículos...",
+    "media_type": "foto",
+    "image": "1d49e5948e7b.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "devem ser utilizados correctamente, porque o seu mau uso pode ser perigoso.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "não são eficazes para reduzir as consequências dos acidentes.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "evitam os acidentes.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "têm uma manutenção muito cara e complexa.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_28/image21.png"
+    ],
+    "id": "q0144"
+  },
+  {
+    "question_text": "A utilização dos sinais sonoros é permitida:",
+    "media_type": "sinal",
+    "image": "79b2ee7833c7.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dentro das localidades, para prevenir um condutor da intenção de o ultrapassar.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Em caso de perigo iminente.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Como meio de protesto contra interrupções do trânsito ou como meio de chamamento.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Na aproximação de cruzamentos ou entroncamentos dentro das localidades.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_28/image22.png",
+      "Teste_5/image25.png"
+    ],
+    "id": "q0145"
+  },
+  {
+    "question_text": "O que indica o sinal circular?",
+    "media_type": "foto",
+    "image": "8b558275172d.png",
+    "category_guess": "Estacionamento",
+    "options": [
+      {
+        "label": "A",
+        "text": "Estacionamento proibido.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Fim do estacionamento proibido.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Paragem proibida.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_28/image23.png",
+      "Teste_5/image14.png"
+    ],
+    "id": "q0146"
+  },
+  {
+    "question_text": "Quando se devem utilizar as luzes de estrada?",
+    "media_type": "foto",
+    "image": "6c854f13994b.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quando a iluminação não permita uma boa visibilidade e não cause encandeamento aos outros utentes.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "No cruzamento com outros veículos.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Durante a paragem ou detenção da marcha do veículo.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Na aproximação a uma passagem de nível fechada.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_28/image24.png",
+      "Teste_5/image4.png"
+    ],
+    "id": "q0147"
+  },
+  {
+    "question_text": "Fora das localidades, a paragem e o estacionamento devem fazer-se:",
+    "media_type": "foto",
+    "image": "94227bf3df04.png",
+    "category_guess": "Estacionamento",
+    "options": [
+      {
+        "label": "A",
+        "text": "Só nos locais especialmente destinados para esse efeito e pela forma indicada.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Fora das faixas de rodagem.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Nas faixas de rodagem, sendo possível fazê-lo fora delas.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Na via de trânsito da esquerda.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_28/image25.png"
+    ],
+    "id": "q0148"
+  },
+  {
+    "question_text": "Que veículos podem conduzir as pessoas que só possuam a carta de condução da categoria B?",
+    "media_type": "foto",
+    "image": "76ba57ebcf9f.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Todos.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Automóveis pesados de mercadorias ou de passageiros.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Automóveis ligeiros.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Motociclos com ou sem carro.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_29/image1.png",
+      "Teste_4/image13.png"
+    ],
+    "id": "q0149"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "6eceb85f3862.png",
+    "category_guess": "Estacionamento",
+    "options": [
+      {
+        "label": "A",
+        "text": "Estacionamento proibido.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Estacionamento condicionado.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Paragem e estacionamento proibidos.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_29/image2.png",
+      "Teste_3/image3.png"
+    ],
+    "id": "q0150"
+  },
+  {
+    "question_text": "Em curvas de visibilidade reduzida, pode ultrapassar?",
+    "media_type": "foto",
+    "image": "0964d48302c9.png",
+    "category_guess": "Ultrapassagem",
+    "options": [
+      {
+        "label": "A",
+        "text": "Não, a menos que sejam possíveis duas ou mais filas de trânsito no mesmo sentido e não se faça pela parte reservada ao sentido contrário.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Não, em nenhum caso.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Sim, ainda que se faça pela parte da faixa de rodagem reservada ao sentido contrário.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Sim, utilizando os dispositivos luminosos e sonoros.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_29/image3.png",
+      "Teste_4/image12.png"
+    ],
+    "id": "q0151"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "4df1338e4a9c.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Obrigação de acender as luzes.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Obrigação de apagar as luzes.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Obrigação de imobilizar o veículo.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_29/image4.png"
+    ],
+    "id": "q0152"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "0cac0adb2173.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Área reservada para veículos com dimensões anormais.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Área reservada para veículos que transportam substâncias perigosas.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Parque de estacionamento para veículos que transportam substâncias perigosas.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_29/image5.png",
+      "Teste_4/image23.png"
+    ],
+    "id": "q0153"
+  },
+  {
+    "question_text": "Os condutores devem utilizar as luzes de presença (mínimos)...",
+    "media_type": "foto",
+    "image": "646df1c9d495.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "apenas durante a paragem ou estacionamento dentro das localidades.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "em condições de visibilidade insuficiente, enquanto aguardam a abertura de passagem de nível.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "ao circular de dia com boa visibilidade.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "durante a noite, no cruzamento com outros veículos, pessoas ou animais.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_29/image6.png",
+      "Teste_4/image5.png"
+    ],
+    "id": "q0154"
+  },
+  {
+    "question_text": "O que indica o sinal vertical?",
+    "media_type": "foto",
+    "image": "ba924bbeaee6.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fim da proibição de ultrapassagem.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Fim da proibição de ultrapassagem para automóveis pesados.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Fim da proibição de ultrapassagem para motociclos simples.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_29/image7.png",
+      "Teste_4/image18.png"
+    ],
+    "id": "q0155"
+  },
+  {
+    "question_text": "Perante uma passagem de nível que não dispuser de protecção ou sinalização, o condutor...",
+    "media_type": "foto",
+    "image": "e91e29c3ee6e.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "tem prioridade sobre os veículos que circulem nos carris.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "está obrigado a utilizar os sinais sonoros.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "só pode iniciar a travessia depois de se certificar de que não se aproxima um veículo ferroviário.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "tem que inverter o sentido de marcha e buscar outra via.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_29/image8.png",
+      "Teste_5/image23.png"
+    ],
+    "id": "q0156"
+  },
+  {
+    "question_text": "Circular com os pneus do veículo velhos...",
+    "media_type": "foto",
+    "image": "849380f326bd.png",
+    "category_guess": "Mecânica",
+    "options": [
+      {
+        "label": "A",
+        "text": "não é perigoso se têm o piso com uma boa profundidade.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "só é perigoso se os pneus têm cortes ou deformações.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "é perigoso, porque endurecem e agarram-se pior à estrada.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_29/image9.png",
+      "Teste_4/image20.png"
+    ],
+    "id": "q0157"
+  },
+  {
+    "question_text": "A fadiga, é um estado que pode influenciar a recolha de informação durante a condução?",
+    "media_type": "foto",
+    "image": "5ce5cb00eab0.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sim, tal como influencía toda a tarefa da condução.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Não.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Sim, mas apenas influencía a recolha de informação em condução urbana.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_29/image10.png",
+      "Teste_4/image14.png"
+    ],
+    "id": "q0158"
+  },
+  {
+    "question_text": "Ao transitar, é necessário manter entre os veículos uma distância de segurança?",
+    "media_type": "foto",
+    "image": "a965ccc6b8dc.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sim, mas apenas em relação aos veículos que transitam à minha frente.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sim, em relação ao trânsito que me rodeia.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Sim, unicamente uma distância lateral.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_29/image11.png",
+      "Teste_4/image11.png"
+    ],
+    "id": "q0159"
+  },
+  {
+    "question_text": "Os acidentes de viação são um problema que afecta...",
+    "media_type": "foto",
+    "image": "c25d24fcb2c0.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "só às vítimas.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "a toda a sociedade.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "só aos condutores.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "apenas à Administração Nacional de Estradas.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_29/image12.png",
+      "Teste_4/image19.png"
+    ],
+    "id": "q0160"
+  },
+  {
+    "question_text": "A que grupo pertence o sinal?",
+    "media_type": "sinal",
+    "image": "eeed2c37bc21.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sinais de direcção para áreas turísticas.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sinais de direcção nas estradas, ruas e vias rápidas.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Sinais de interesse turístico.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_29/image13.png",
+      "Teste_4/image3.png"
+    ],
+    "id": "q0161"
+  },
+  {
+    "question_text": "Que veículos consideram-se prioritários?",
+    "media_type": "foto",
+    "image": "ae3da42238cf.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "Os que transitam em missão urgente de socorro e comitivas governamentais, assinalando adequadamente a sua marcha.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "As ambulâncias que transportam feridos.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "As comitivas governamentais.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_29/image14.png",
+      "Teste_4/image8.png"
+    ],
+    "id": "q0162"
+  },
+  {
+    "question_text": "A luz indicadora de mudança de direcção à direita accionada ao iniciar uma ultrapassagem, só deve ser desligada...",
+    "media_type": "foto",
+    "image": "800a589c3c2b.png",
+    "category_guess": "Ultrapassagem",
+    "options": [
+      {
+        "label": "A",
+        "text": "quando termine de mudar de via de trânsito.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "uma vez finalizada a ultrapassagem.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "antes de mudar de via de trânsito.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "só depois de percorrer uma distância de 500 metros.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_29/image15.png",
+      "Teste_4/image1.png"
+    ],
+    "id": "q0163"
+  },
+  {
+    "question_text": "O agente regulador de trânsito da fotografia, manda:",
+    "media_type": "foto",
+    "image": "a900eb9aae11.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "Parar o tráfego que venha da frente.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Parar o tráfego que venha da frente e da retaguarda.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Parar o tráfego que venha da retaguarda.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_29/image16.png",
+      "Teste_4/image2.png"
+    ],
+    "id": "q0164"
+  },
+  {
+    "question_text": "Qual é o comportamento correcto para ajudar em caso de acidente?",
+    "media_type": "foto",
+    "image": "3751e3bcf72a.png",
+    "category_guess": "Primeiros Socorros",
+    "options": [
+      {
+        "label": "A",
+        "text": "Não fazer nada até chegarem os agentes da autoridade.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Transportar imediatamente os feridos mais graves para o hospital mais próximo.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Parar o veículo sem criar perigo e proteger a zona para evitar novos acidentes.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Tirar os feridos do veículo para verificar seu estado.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_29/image17.png"
+    ],
+    "id": "q0165"
+  },
+  {
+    "question_text": "Pode transpor um condutor a linha existente no eixo da via?",
+    "media_type": "foto",
+    "image": "9e41309c4372.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sim, para mudar de direcção.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sim, para ultrapassar.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Não. Nunca pode transpor a linha existente no eixo da via.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_29/image18.png",
+      "Teste_4/image10.png"
+    ],
+    "id": "q0166"
+  },
+  {
+    "question_text": "A finalidade dos sistemas de segurança activa e passiva dos veículos, é:",
+    "media_type": "foto",
+    "image": "15cf74a450fb.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Poder circular em alta velocidade sem perigo.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Reduzir os acidentes de trânsito e as suas consequências.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Evitar todos os acidentes.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Poder circular sem prestar atenção à estrada.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_29/image19.png",
+      "Teste_4/image7.png"
+    ],
+    "id": "q0167"
+  },
+  {
+    "question_text": "Na tarefa da condução, em que momento é a audição um sentido muito importante?",
+    "media_type": "foto",
+    "image": "e0ac355e98a4.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Na decisão.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "No tratamento da informação.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Na recolha de informação.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_29/image20.png",
+      "Teste_4/image6.png"
+    ],
+    "id": "q0168"
+  },
+  {
+    "question_text": "As luzes de travagem dos automóveis tem a cor:",
+    "media_type": "foto",
+    "image": "1499b1bebe0a.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Vermelha.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Branca ou amarela.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Amarela ou alaranjada.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_3/image1.png"
+    ],
+    "id": "q0169"
+  },
+  {
+    "question_text": "É a via pública um espaço destinado ao trânsito de peões?",
+    "media_type": "foto",
+    "image": "0964d48302c9.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Não. Na via pública só podem transitar veículos.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sim, de peões e de veículos.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Sim, mas só de dia.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Sim, mas só dentro das localidades.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_3/image2.png"
+    ],
+    "id": "q0170"
+  },
+  {
+    "question_text": "A medida que aumenta a velocidade…",
+    "media_type": "foto",
+    "image": "c5e58682523b.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "aumenta o campo de visão do condutor.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "a fadiga demora mais a aparecer.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "reduz-se o campo de visão do condutor e aumenta a fadiga.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "melhora a capacidade de controlar o veículo nas situações de emergência.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_3/image4.png"
+    ],
+    "id": "q0171"
+  },
+  {
+    "question_text": "Entende-se por cruzamento de veículos:",
+    "media_type": "foto",
+    "image": "96331eb03cb0.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quando na mesma via, se encontram dois veículos transitando no mesmo sentido.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Quando dois veículos, circulando na mesma fila, o que se encontra atrás passa para diante do outro.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Quando os condutores de dois veículos que transitam na mesma via e em sentidos opostos, passam um pelo outro em simultâneo.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_3/image5.png"
+    ],
+    "id": "q0172"
+  },
+  {
+    "question_text": "Que indica o sinal?",
+    "media_type": "sinal",
+    "image": "8b21592b4314.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Terreno falso à direita.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Cruzamento facilmente congestionável.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Congestionamento de tráfego.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_3/image6.png"
+    ],
+    "id": "q0173"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "bd35df849489.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Inicio de localidades.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Fim de localidades.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Advertência suplementar de direcção ou direcção de acesso.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_3/image7.png"
+    ],
+    "id": "q0174"
+  },
+  {
+    "question_text": "Com o fim de ter a uma boa capacidade de manobra e garantir o bom funcionamento dos sistemas de segurança do veículo, o condutor deve regular o assento…",
+    "media_type": "foto",
+    "image": "c2878202b340.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "por forma a ficar muito próximo do volante, com as pernas e braços encolhidos.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "por forma a que as pernas e braços fiquem ligeiramente fletidos.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "por forma a ficar longe do volante, com as pernas e braços esticados.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_3/image8.png"
+    ],
+    "id": "q0175"
+  },
+  {
+    "question_text": "Onde é proibido realizar uma ultrapassagem?",
+    "media_type": "foto",
+    "image": "749fe7c85d3b.png",
+    "category_guess": "Ultrapassagem",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nos cruzamentos e entroncamentos em que não tenha prioridade de passagem.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Nas rotundas.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Em todos os cruzamentos e entroncamentos.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Nas auto-estradas.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_3/image9.png"
+    ],
+    "id": "q0176"
+  },
+  {
+    "question_text": "Pode conduzir um automóvel ligeiro com reboque com a carta de condução da categoria B?",
+    "media_type": "foto",
+    "image": "1060df5fa1fe.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sim, desde que o peso bruto do reboque não exceda 750 kg.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Não, é necessária a da categoria C1E.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Sim, desde que o peso bruto do reboque não exceda 3500 kg.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Não, é necessária a da categoria G.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_3/image11.png"
+    ],
+    "id": "q0177"
+  },
+  {
+    "question_text": "O que indica o sinal triângular?",
+    "media_type": "sinal",
+    "image": "b405d0dc297d.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Local de passagem de nível com cancela.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Passagem de nível.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Local de passagem de nível com cancela, com duas ou mais vias.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_3/image12.png"
+    ],
+    "id": "q0178"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "1229c8be15bf.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Descida de inclinação acentuada.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Descida de inclinação acentuada ao longo da distância indicada.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Entroncamento obliquo à direita.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_3/image13.png"
+    ],
+    "id": "q0179"
+  },
+  {
+    "question_text": "O álcool influencia de forma negativa o desempenho da tarefa de condução?",
+    "media_type": "foto",
+    "image": "372ee34baa83.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sim, mas apenas quando a taxa de álcool no sangue é muito elevada.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Não, porque o álcool é um estimulante para a condução.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Sim, influencia de forma negativa na tarefa de condução.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Não, se é tomado durante o almoço.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_3/image14.png"
+    ],
+    "id": "q0180"
+  },
+  {
+    "question_text": "Dentro das localidades, em vias com mais de uma via de trânsito no mesmo sentido, o condutor deve utilizar…",
+    "media_type": "foto",
+    "image": "7791bab86313.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "a via de trânsito mais à esquerda, podendo utilizar outra só para ultrapassar ou mudar de direcção.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "a via de trânsito da esquerda, podendo mudar para a da direita sempre que lhe apeteça.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "a via de trânsito mais conveniente ao seu destino.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "a via de trânsito mais à direita.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_3/image15.png"
+    ],
+    "id": "q0181"
+  },
+  {
+    "question_text": "Durante a noite, quando deve o condutor utilizar as luzes de cruzamento?",
+    "media_type": "foto",
+    "image": "6c0795f911d3.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Só no cruzamento com pessoas ou animais.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Durante a paragem ou estacionamento do veículo.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "No cruzamento com outros veículos ou quando esteja a menos de 100 metros do veículo que segue à sua frente.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Fora das localidades, nos locais em que a iluminação permita uma visibilidade inferior a 25 metros.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_3/image16.png"
+    ],
+    "id": "q0182"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "5c62fafe320a.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Pista obrigatória para veículos de tracção animal.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Pista obrigatória para riquexó.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Pista obrigatória para veículos de tracção manual.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_3/image17.png"
+    ],
+    "id": "q0183"
+  },
+  {
+    "question_text": "O que deve fazer quando um velocípede segue no mesmo sentido de trânsito?",
+    "media_type": "foto",
+    "image": "12baa4ead9af.png",
+    "category_guess": "Ultrapassagem",
+    "options": [
+      {
+        "label": "A",
+        "text": "Utilizar os sinais sonoros.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Ter em atenção a instabilidade desse veículo.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Ultrapassá-lo a grande velocidade.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_3/image18.png"
+    ],
+    "id": "q0184"
+  },
+  {
+    "question_text": "Se tem a carta de condução da categoria B há menos de um ano e conduz um automóvel ligeiro de passageiros, não pode exceder a velocidade de…",
+    "media_type": "foto",
+    "image": "a2df0ed50395.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "90 km/h.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "120 km/h.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "100 km/h.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "80 km/h.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_3/image19.png"
+    ],
+    "id": "q0185"
+  },
+  {
+    "question_text": "A marcha atrás, e uma manobra que deve ser efectuada…",
+    "media_type": "foto",
+    "image": "39ba3b198273.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "o mais à direita possível, em local de boa visibilidade.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "lentamente e o mais possível à esquerda.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "o mais rapidamente possível, em local onde não prejudique o trânsito.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "rapidamente e no menor trajecto possível.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_3/image20.png"
+    ],
+    "id": "q0186"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "4f08d3a01ced.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Trânsito proibido a automóveis ligeiros de passageiros.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Trânsito proibido à Táxis.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Trânsito proibido a veículos automóveis e motociclos com carro.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_3/image21.png"
+    ],
+    "id": "q0187"
+  },
+  {
+    "question_text": "Se o condutor sofre de uma doença, o que deve fazer para reduzir o risco de ter um acidente?",
+    "media_type": "foto",
+    "image": "4bc6a0a1135f.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Interromper a medicação que estiver a tomar, se tem que conduzir.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Conhecer os efeitos secundários dos medicamentos.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Deixar de conduzir em todos os casos.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Ignorar os sintomas para evitar distracções.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_3/image22.png"
+    ],
+    "id": "q0188"
+  },
+  {
+    "question_text": "O condutor, ao colocar a carga num veículo, entre outros cuidados deve…",
+    "media_type": "foto",
+    "image": "a9d62f7bf661.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "evitar que a carga possa vir a cair sobre a via.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "colocá-la somente na mala do porta bagagem.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "colocar a carga mais pesada na parte reservada aos passageiros.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "colocar a carga mais pesada na parte superior do veículo.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_3/image23.png",
+      "Teste_32/image22.png"
+    ],
+    "id": "q0189"
+  },
+  {
+    "question_text": "As ordens dos agentes reguladores do trânsito, prevalecem sobre os sinais luminosos:",
+    "media_type": "foto",
+    "image": "2c4beded5b2c.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "De qualquer cor.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Verdes.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Amarelos.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Vermelho.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_3/image24.png"
+    ],
+    "id": "q0190"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "foto",
+    "image": "61aeec408b49.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Parque de estacionamento para autocarros e autocarros médios.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Área reservada para autocarros e autocarros médios.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Faixa reservada para qualquer tipo de autocarro do lado esquerdo.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_3/image25.png"
+    ],
+    "id": "q0191"
+  },
+  {
+    "question_text": "O que se entende por primeiros socorros?",
+    "media_type": "foto",
+    "image": "3751e3bcf72a.png",
+    "category_guess": "Primeiros Socorros",
+    "options": [
+      {
+        "label": "A",
+        "text": "São os cuidados prestados a uma pessoa que se fere ou adoece de repente, para mantê-la viva e impedir o agravamento da situação.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "É a chegada rápida do pessoal especializado ao local da ocorrência do sinistro.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "É o transporte adequado do sinistrado ou doente ao posto médico.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "São os meios humanos e materiais utilizados para a remoção dos acidentados.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_32/image1.png"
+    ],
+    "id": "q0192"
+  },
+  {
+    "question_text": "A marcha atrás...",
+    "media_type": "foto",
+    "image": "b008116f3fb0.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "só é permitida como manobra auxiliar ou de recurso.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "é permitida nas auto-estradas.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "é permitida nas pontes, passagens de nível e túneis.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "é permitida durante a circulação normal do veículo.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_32/image15.png"
+    ],
+    "id": "q0193"
+  },
+  {
+    "question_text": "Nesta situação, pode fazer uma ultrapassagem?",
+    "media_type": "foto",
+    "image": "9e4a1559d2c7.png",
+    "category_guess": "Ultrapassagem",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sim, utilizando os sinais sonoros.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sim, depois de sinalizá-lo.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Não.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_32/image20.png"
+    ],
+    "id": "q0194"
+  },
+  {
+    "question_text": "O que indica o sinal?",
+    "media_type": "sinal",
+    "image": "c8fc10e5684b.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Passagem de nível.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "A presença de máquinas na via.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Passagem de um veículo automóvel de cada vez.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_4/image9.png"
+    ],
+    "id": "q0195"
+  },
+  {
+    "question_text": "Entende-se por cidadania:",
+    "media_type": "foto",
+    "image": "4b5954621192.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "A nacionalidade de um cidadão que o identifica como tal.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "O princípio que permite avançar em primeiro lugar num cruzamento não sinalizado.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "O conjunto de valores sociais que determinam o conjunto de deveres e direitos de um cidadão.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_4/image15.png"
+    ],
+    "id": "q0196"
+  },
+  {
+    "question_text": "Nas passagem de nível, os condutores estão obrigados a...",
+    "media_type": "foto",
+    "image": "12dac7a5a07d.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "passar quando as cancelas ou barreiras estejam em movimento.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "aumentar a velocidade para atravessar rapidamente.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "certificar-se que a intensidade do tráfego não o obriga a imobilizar o veículo sobre ela.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "engrenar uma velocidade mais baixa durante o atravessamento.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_4/image16.png"
+    ],
+    "id": "q0197"
+  },
+  {
+    "question_text": "Sempre que o veículo esteja parado ou estacionado do lado esquerdo da faixa de rodagem...",
+    "media_type": "foto",
+    "image": "b786370ff173.png",
+    "category_guess": "Estacionamento",
+    "options": [
+      {
+        "label": "A",
+        "text": "os passageiros devem entrar e sair pelo lado direito do veículo.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "os passageiros devem entrar e sair pelo lado esquerdo do veículo.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "os passageiros não podem sair do veículo.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "o condutor deve entrar e sair pelo lado esquerdo do veículo.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_4/image17.png"
+    ],
+    "id": "q0198"
+  },
+  {
+    "question_text": "Para não causar perigo e por em causa a segurança das pessoas e das coisas, os condutores devem...",
+    "media_type": "foto",
+    "image": "f9c10b5ce46c.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "circular nos limites máximos de velocidade das estradas.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "circular abaixo dos limites mínimos de velocidade.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "regular a velocidade atendendo às características do veículo, às condições da via e ao estado do condutor.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "ficar em ponto morto nas descidas muito inclinadas.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_4/image21.png"
+    ],
+    "id": "q0199"
+  },
+  {
+    "question_text": "Nesta via de duplo sentido, onde deve estacionar se não existem locais destinados para este fim?",
+    "media_type": "foto",
+    "image": "e3617c7b173d.png",
+    "category_guess": "Estacionamento",
+    "options": [
+      {
+        "label": "A",
+        "text": "Paralelamente ao lado esquerdo no sentido da marcha.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "O mais próximo possível do limite direito da faixa de rodagem, paralelamente a esta e no sentido da marcha.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Nesta situação é proibido parar ou estacionar.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Nos passeios.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_4/image22.png"
+    ],
+    "id": "q0200"
+  },
+  {
+    "question_text": "Utilizar o veículo para em via pública, demonstrar ou exibir manobra de arranque brusco, derrapagem ou travagem com deslizamento de pneus, constitui contravenção:",
+    "media_type": "foto",
+    "image": "1aa617a8d1bf.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "Leve.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Média.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Grave.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_5/image13.png"
+    ],
+    "id": "q0201"
+  },
+  {
+    "question_text": "O que indica o sinal de interesse turístico?",
+    "media_type": "sinal",
+    "image": "90c08f3557bd.png",
+    "category_guess": "Sinais",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lugar histórico e genérico.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Parque de campismo.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Reserva florestal.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_6/image2.png"
+    ],
+    "id": "q0202"
+  },
+  {
+    "question_text": "Se os ocupantes do veículo não utilizarem o cinto de segurança, o airbag é eficaz?",
+    "media_type": "foto",
+    "image": "b934ce6b6e39.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Não e pode causar lesões graves.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Sim, o airbag é sempre eficaz.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Sim, sempre que os passageiros estejam sentados correctamente.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Sim, mas apenas para o condutor.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_6/image3.png"
+    ],
+    "id": "q0203"
+  },
+  {
+    "question_text": "Os direitos humanos:",
+    "media_type": "foto",
+    "image": "3877b46687ce.png",
+    "category_guess": "Legislação",
+    "options": [
+      {
+        "label": "A",
+        "text": "São universais, individuais, inatos e de reivindicação.",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "São universais, intransmissíveis e de reivindicação perante o Estado.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "São universais, naturais e de reivindicação.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_6/image4.png"
+    ],
+    "id": "q0204"
+  },
+  {
+    "question_text": "Dentro das localidades, é proibido parar ou estacionar?",
+    "media_type": "foto",
+    "image": "aeaf7632bfc6.png",
+    "category_guess": "Estacionamento",
+    "options": [
+      {
+        "label": "A",
+        "text": "A menos de 50 metros dos cruzamentos ou entroncamentos.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "A menos de 5 metros antes das passagens assinaladas para a travessia de peões e velocípedes.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "A menos de 25 metros para um e outro lado dos cruzamentos ou entroncamentos.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Na faixa de rodagem, em qualquer caso.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_6/image6.png"
+    ],
+    "id": "q0205"
+  },
+  {
+    "question_text": "Um condutor distraído:",
+    "media_type": "foto",
+    "image": "adebc3b603cd.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tem um tempo de reacção mais reduzido.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Tem o mesmo tempo de reacção que qualquer condutor.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Tem um tempo de reacção mais longo.",
+        "correct": true
+      }
+    ],
+    "sources": [
+      "Teste_6/image8.png"
+    ],
+    "id": "q0206"
+  },
+  {
+    "question_text": "Quando na faixa de rodagem existam placas, postes, ilhéus direccionais ou dispositivos semelhantes, como deve transitar?",
+    "media_type": "foto",
+    "image": "b66e0b9fae56.png",
+    "category_guess": "Prioridades",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dando-lhes a esquerda, se estão numa via de dois sentidos.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Pela direita ou pela esquerda, se estão numa via de dois sentidos.",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Dando-lhes a direita, se estão numa via de dois sentidos.",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Obrigatoriamente pela direita, se estão numa via de sentido único.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_6/image9.png"
+    ],
+    "id": "q0207"
+  },
+  {
+    "question_text": "O facto de conduzir de noite, deve ter influência na velocidade a que segue?",
+    "media_type": "foto",
+    "image": "4682d8a5073f.png",
+    "category_guess": "Segurança Rodoviária",
+    "options": [
+      {
+        "label": "A",
+        "text": "Não, porque a utilização de luzes é obrigatória.",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sim.",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Sim, mas apenas dentro das localidades.",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Não, se conheço bem a estrada.",
+        "correct": false
+      }
+    ],
+    "sources": [
+      "Teste_6/image12.png"
+    ],
+    "id": "q0208"
+  }
+]

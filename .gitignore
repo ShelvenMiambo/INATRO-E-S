@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# dados: mantemos data/processed/*.json e public/questions/*.webp (usados pela app).
+# data/images (PNG brutos recortados) e data/raw (fonte original) sao intermediarios
+# pesados do pipeline de extracao e nao precisam de estar no repo.
+/data/local.db*
+/data/images/
+/data/raw/
+/.wrangler/
