@@ -3,13 +3,15 @@ info:
   # Do not change the title, if the title changes, the import paths will be broken
   title: Api
   version: 0.1.0
-  description: API specification
+  description: RumoCarta API — exam prep platform for INATRO driving test
 servers:
   - url: /api
     description: Base API path
 tags:
   - name: health
     description: Health operations
+  - name: simulado
+    description: Simulado (exam) operations
 paths:
   /healthz:
     get:
@@ -24,6 +26,73 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+
+  /simulado/questoes:
+    get:
+      operationId: getSimuladoQuestoes
+      tags: [simulado]
+      summary: Get random exam questions
+      description: Returns N random questions with shuffled options for a simulado session
+      parameters:
+        - name: count
+          in: query
+          required: false
+          schema:
+            type: integer
+            default: 30
+          description: Number of questions to return
+        - name: categoryId
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter by category ID
+        - name: onlyIds
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Comma-separated question IDs to return (for retry-wrong-answers mode)
+      responses:
+        "200":
+          description: List of questions with options
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/QuestaoComResposta"
+
+  /simulado/count:
+    get:
+      operationId: getSimuladoCount
+      tags: [simulado]
+      summary: Get total question count
+      description: Returns the total number of active questions in the database
+      responses:
+        "200":
+          description: Question count
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/QuestionCount"
+
+  /categorias:
+    get:
+      operationId: getCategorias
+      tags: [simulado]
+      summary: Get all categories
+      description: Returns all question categories
+      responses:
+        "200":
+          description: List of categories
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Categoria"
+
 components:
   schemas:
     HealthStatus:
@@ -34,3 +103,79 @@ components:
       required:
         - status
 
+    Opcao:
+      type: object
+      properties:
+        id:
+          type: string
+        label:
+          type: string
+        text:
+          type: string
+      required:
+        - id
+        - label
+        - text
+
+    QuestaoComResposta:
+      type: object
+      properties:
+        id:
+          type: string
+        questionText:
+          type: string
+        mediaType:
+          type: string
+          enum: [sinal, foto, nenhum]
+        imagePath:
+          type: ["string", "null"]
+        categoryId:
+          type: string
+        categoryName:
+          type: string
+        explanation:
+          type: ["string", "null"]
+        options:
+          type: array
+          items:
+            $ref: "#/components/schemas/Opcao"
+        correctOptionId:
+          type: string
+      required:
+        - id
+        - questionText
+        - mediaType
+        - imagePath
+        - categoryId
+        - categoryName
+        - explanation
+        - options
+        - correctOptionId
+
+    QuestionCount:
+      type: object
+      properties:
+        count:
+          type: integer
+      required:
+        - count
+
+    Categoria:
+      type: object
+      properties:
+        id:
+          type: string
+        slug:
+          type: string
+        name:
+          type: string
+        icon:
+          type: string
+        sortOrder:
+          type: integer
+      required:
+        - id
+        - slug
+        - name
+        - icon
+        - sortOrder

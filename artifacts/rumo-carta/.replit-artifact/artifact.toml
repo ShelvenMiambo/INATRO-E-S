@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "RumoCarta"
+version = "1.0.0"
+id = "artifacts/rumo-carta"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23784
+
+[services.development]
+run = "pnpm --filter @workspace/rumo-carta run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/rumo-carta", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/rumo-carta/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23784"
+BASE_PATH = "/"

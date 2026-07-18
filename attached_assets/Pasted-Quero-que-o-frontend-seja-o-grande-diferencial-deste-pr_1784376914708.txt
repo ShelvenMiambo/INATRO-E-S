@@ -1,0 +1,39 @@
+Quero que o frontend seja o grande diferencial deste projeto.
+
+Não quero um website tradicional de perguntas e respostas. Quero que pareça uma plataforma premium de aprendizagem, onde o utilizador tenha vontade de voltar todos os dias para estudar.
+
+Pensa numa mistura entre Duolingo, Brilliant, Codecademy e Notion, mas adaptada ao ensino da condução e ao contexto de Moçambique.
+
+O objetivo é que estudar para o exame do INATRO seja divertido, intuitivo e envolvente.
+
+Além dos simulados, pretendo incluir conteúdos do Código da Estrada, sinais de trânsito, boas práticas de condução, primeiros socorros, mecânica básica e qualquer outro conteúdo que consideres útil para aumentar a probabilidade de aprovação.
+
+Sente-te à vontade para sugerir e implementar funcionalidades que melhorem a experiência do utilizador, mesmo que eu não as tenha mencionado.
+
+Quero um design que transmita confiança e profissionalismo.
+
+Características esperadas:
+- Interface moderna e premium.
+- Mobile First.
+- Responsiva.
+- Micro-animações.
+- Transições suaves.
+- Excelente UX.
+- Modo claro e escuro.
+- Componentes reutilizáveis.
+- Dashboard apelativo.
+- Cartões modernos.
+- Barra de progresso.
+- Indicadores de evolução.
+- Gamificação (XP, níveis, medalhas, streaks, missões diárias, etc.).
+- Ilustrações e ícones consistentes.
+- Feedback visual para respostas certas e erradas.
+- Sensação de aplicação nativa.
+
+Quero que o utilizador sinta que está a usar uma aplicação profissional e não apenas um website.
+
+Relativamente às imagens, não utilizes imagens protegidas por direitos de autor.
+
+Sempre que forem necessárias imagens ou ilustrações, utiliza apenas placeholders e descreve claramente o que deve existir naquele local. Eu próprio utilizarei o Gemini para gerar versões originais dessas imagens, por isso estrutura o frontend para que seja fácil substituí-las posteriormente.
+
+Sempre que achares que uma imagem, ilustração, animação ou elemento visual pode melhorar a aprendizagem ou a experiência do utilizador, adiciona um placeholder e explica rapidamente o seu objetivo.
