@@ -1,11 +1,18 @@
-name = "rumo-carta"
-pages_build_output_dir = "dist/public"
+name = "inatroes"
+main = "worker/index.ts"
 compatibility_date = "2025-06-01"
+
+# Ficheiros estáticos gerados pelo `vite build` (dist/public). O worker
+# (worker/index.ts) trata primeiro dos pedidos a /api/*; tudo o resto
+# cai neste binding, que serve os ficheiros do dist/public.
+[assets]
+directory = "./dist/public"
+binding = "ASSETS"
 
 # Depois de correr `npm run cf:d1:create`, copia o database_id devolvido
 # para aqui. Sem isto, o binding "DB" não funciona em produção (o dev
-# local com `wrangler pages dev --d1 DB=rumocarta-db` funciona sem
-# database_id, usando uma D1 local em .wrangler/state).
+# local com `npm run cf:dev` funciona sem database_id, usando uma D1
+# local em .wrangler/state).
 [[d1_databases]]
 binding = "DB"
 database_name = "rumocarta-db"
