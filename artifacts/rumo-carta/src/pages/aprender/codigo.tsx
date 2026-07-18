@@ -27,6 +27,8 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { GRUPOS_MULTAS, TOTAL_MULTAS } from "@/data/multas";
+import { Banknote } from "lucide-react";
 
 interface QuizQuestion {
   question: string;
@@ -255,6 +257,7 @@ export default function AprenderCodigo() {
   const [activeQuiz, setActiveQuiz] = useState<string | null>(null);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [quizSubmitted, setQuizSubmitted] = useState(false);
+  const [multasSearch, setMultasSearch] = useState("");
 
   // Load favorites
   useEffect(() => {
@@ -282,6 +285,20 @@ export default function AprenderCodigo() {
       rule.tags.some((tag) => tag.toLowerCase().includes(search.toLowerCase())) ||
       rule.plainText.toLowerCase().includes(search.toLowerCase())
   );
+
+  const multasQuery = multasSearch.trim().toLowerCase();
+  const filteredMultas = multasQuery
+    ? GRUPOS_MULTAS.flatMap((grupo) =>
+        grupo.itens
+          .filter(
+            (item) =>
+              item.infracao.toLowerCase().includes(multasQuery) ||
+              item.artigo.toLowerCase().includes(multasQuery) ||
+              grupo.titulo.toLowerCase().includes(multasQuery)
+          )
+          .map((item) => ({ ...item, grupo: grupo.titulo }))
+      )
+    : null;
 
   const startQuiz = (id: string, e: React.MouseEvent) => {
     e.stopPropagation();
@@ -393,6 +410,61 @@ export default function AprenderCodigo() {
                 );
               })}
             </Accordion>
+          )}
+        </div>
+
+        {/* ── Transgressões e Multas ──────────────────────────── */}
+        <div>
+          <div className="flex items-center gap-4 mb-4">
+            <div className="w-14 h-14 bg-destructive/15 text-destructive rounded-2xl flex items-center justify-center shrink-0">
+              <Banknote className="w-7 h-7" />
+            </div>
+            <div>
+              <h2 className="text-2xl font-black">Transgressões e Multas</h2>
+              <p className="text-sm text-muted-foreground">
+                {TOTAL_MULTAS} infracções do Código da Estrada, com o artigo e o valor da multa.
+              </p>
+            </div>
+          </div>
+
+          <div className="relative mb-4">
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground w-5 h-5" />
+            <Input
+              value={multasSearch}
+              onChange={(e) => setMultasSearch(e.target.value)}
+              placeholder="Ex: telemóvel, velocidade, estacionamento, álcool..."
+              className="pl-12 h-14 rounded-2xl bg-card border-border/50 text-base"
+            />
+          </div>
+
+          {!filteredMultas ? (
+            <div className="p-8 text-center text-muted-foreground bg-card border border-dashed border-border/50 rounded-3xl text-sm">
+              Escreve acima para pesquisar entre as {TOTAL_MULTAS} transgressões e respectivas multas.
+            </div>
+          ) : filteredMultas.length === 0 ? (
+            <div className="p-8 text-center text-muted-foreground bg-card border border-border/50 rounded-3xl text-sm">
+              Nenhuma transgressão encontrada para "{multasSearch}".
+            </div>
+          ) : (
+            <div className="space-y-3">
+              {filteredMultas.map((item, i) => (
+                <motion.div
+                  key={`${item.grupo}-${i}`}
+                  initial={{ opacity: 0, y: 8 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: Math.min(i * 0.03, 0.3) }}
+                  className="p-4 bg-card border border-border/50 rounded-2xl"
+                >
+                  <Badge variant="outline" className="text-[10px] mb-2">{item.grupo}</Badge>
+                  <p className="font-semibold text-foreground leading-snug mb-2">{item.infracao}</p>
+                  <div className="flex flex-wrap gap-2 text-xs">
+                    <span className="text-muted-foreground bg-muted/50 px-2.5 py-1 rounded-lg">{item.artigo}</span>
+                    <span className="font-bold text-destructive bg-destructive/10 px-2.5 py-1 rounded-lg">{item.multa}</span>
+                    <span className="text-muted-foreground bg-muted/50 px-2.5 py-1 rounded-lg">{item.responsavel}</span>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
           )}
         </div>
 

@@ -6,6 +6,7 @@ import { Loader2, CheckCircle2, XCircle, ArrowRight, RotateCcw, Home, Info, Cloc
 import { motion, AnimatePresence } from "framer-motion";
 import type { QuestaoComResposta } from "@workspace/api-client-react";
 import { useGamification } from "@/lib/gamification";
+import { recordSimuladoForMissions } from "@/lib/daily-missions";
 
 function estimarProbabilidadeAprovacao(percentagem: number): number {
   const centro = 74; // approval threshold 80 - 6
@@ -163,7 +164,15 @@ export default function Simulado() {
   }
 
   if (isFinished) {
-    return <Resultados questoes={questoes} respostas={respostas} onRetryAll={() => refetch()} recordSimulado={recordSimulado} />;
+    return (
+      <Resultados
+        questoes={questoes}
+        respostas={respostas}
+        onRetryAll={() => refetch()}
+        recordSimulado={recordSimulado}
+        categoryId={categoryIdParam ?? undefined}
+      />
+    );
   }
 
   if (!currentQuestao) return null;
@@ -345,16 +354,31 @@ export default function Simulado() {
   );
 }
 
-function Resultados({ 
-  questoes, 
+const HISTORY_KEY = "rumocarta_simulado_history";
+
+function recordHistoryEntry(entry: { score: number; correct: number; total: number; categoryId?: string }) {
+  try {
+    const raw = localStorage.getItem(HISTORY_KEY);
+    const history = raw ? JSON.parse(raw) : [];
+    history.push({ date: new Date().toISOString(), ...entry });
+    localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
+  } catch (e) {
+    console.error("Failed to save simulado history", e);
+  }
+}
+
+function Resultados({
+  questoes,
   respostas,
   onRetryAll,
-  recordSimulado
-}: { 
-  questoes: QuestaoComResposta[], 
+  recordSimulado,
+  categoryId,
+}: {
+  questoes: QuestaoComResposta[],
   respostas: { questionId: string; selectedOptionId: string | null; correct: boolean; timeSpentSeconds: number; categoryId: string; }[],
   onRetryAll: () => void,
-  recordSimulado: (score: number, categoryProgress: Record<string, {seen:number, correct:number}>) => void
+  recordSimulado: (score: number, categoryProgress: Record<string, {seen:number, correct:number}>) => void,
+  categoryId?: string,
 }) {
   const [_, setLocation] = useLocation();
 
@@ -380,7 +404,10 @@ function Resultados({
     });
 
     recordSimulado(percentage, categoryProgress);
-  }, [percentage, respostas, recordSimulado]);
+    recordHistoryEntry({ score: percentage, correct: correctCount, total: totalQuestions, categoryId });
+    recordSimuladoForMissions(respostas.map((r) => ({ categoryId: r.categoryId, correct: r.correct })));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <div className="min-h-[100dvh] flex flex-col bg-background">

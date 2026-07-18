@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "wouter";
 import { useGamification, getXPForNextLevel, getLevelName } from "@/lib/gamification";
+import { getMissionsStatus, claimNewlyCompletedMissions, type MissionStatus } from "@/lib/daily-missions";
 import { Navigation } from "@/components/navigation";
 import { Flame, Star, Trophy, Target, ChevronRight, Lock, CheckCircle2, Play, CarFront } from "lucide-react";
 import { useGetCategorias } from "@workspace/api-client-react";
@@ -17,31 +18,18 @@ const ACHIEVEMENTS = [
 ];
 
 export default function Dashboard() {
-  const { state, checkAndUpdateStreak } = useGamification();
+  const { state, checkAndUpdateStreak, addXP } = useGamification();
   const { data: categorias, isLoading } = useGetCategorias();
-  
-  // Daily missions state (simulated with local storage based on date)
-  const [missions, setMissions] = useState([
-    { id: 1, title: "Completa 1 simulado hoje", xp: 50, done: false },
-    { id: 2, title: "Estuda 2 categorias", xp: 30, done: false },
-    { id: 3, title: "Acerta 15 questões seguidas", xp: 100, done: false },
-  ]);
+
+  const [missions, setMissions] = useState<MissionStatus[]>(() => getMissionsStatus());
 
   useEffect(() => {
     checkAndUpdateStreak();
-    
-    // Simulate mission completion based on state
-    const today = new Date().toISOString().split('T')[0];
-    const missionsKey = `missions_${today}`;
-    const storedMissions = localStorage.getItem(missionsKey);
-    
-    if (storedMissions) {
-      setMissions(JSON.parse(storedMissions));
-    } else {
-      // Logic to auto-check missions could go here if we tracked granular daily actions
-      // For now, we'll leave them unchecked for demo purposes
-      localStorage.setItem(missionsKey, JSON.stringify(missions));
-    }
+
+    const newlyDone = claimNewlyCompletedMissions();
+    setMissions(getMissionsStatus());
+    newlyDone.forEach((m) => addXP(m.xp, `Missão: ${m.title}`));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [checkAndUpdateStreak]);
 
   const xpNeeded = getXPForNextLevel(state.level);
@@ -122,6 +110,14 @@ export default function Dashboard() {
                   </span>
                 </div>
                 <p className={`font-medium ${mission.done ? 'text-muted-foreground line-through' : ''}`}>{mission.title}</p>
+                {!mission.done && (
+                  <div className="mt-3 flex items-center gap-2">
+                    <Progress value={(mission.current / mission.target) * 100} className="h-1.5 flex-1" />
+                    <span className="text-[10px] font-semibold text-muted-foreground shrink-0">
+                      {mission.current}/{mission.target}
+                    </span>
+                  </div>
+                )}
               </div>
             ))}
           </div>
