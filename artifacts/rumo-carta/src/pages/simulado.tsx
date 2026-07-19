@@ -6,7 +6,9 @@ import { Loader2, CheckCircle2, XCircle, ArrowRight, RotateCcw, Home, Info, Cloc
 import { motion, AnimatePresence } from "framer-motion";
 import type { QuestaoComResposta } from "@workspace/api-client-react";
 import { useGamification } from "@/lib/gamification";
-import { recordSimuladoForMissions } from "@/lib/daily-missions";
+import { recordSimuladoForMissions, longestCorrectStreak } from "@/lib/daily-missions";
+import { useAuth } from "@/contexts/auth";
+import { recordAttemptOnServer } from "@/lib/server-progress";
 
 function estimarProbabilidadeAprovacao(percentagem: number): number {
   const centro = 74; // approval threshold 80 - 6
@@ -382,6 +384,7 @@ function Resultados({
   categoryId?: string,
 }) {
   const [_, setLocation] = useLocation();
+  const { user, setUser } = useAuth();
 
   const totalQuestions = questoes.length;
   const correctCount = respostas.filter(r => r.correct).length;
@@ -407,6 +410,21 @@ function Resultados({
     recordSimulado(percentage, categoryProgress);
     recordHistoryEntry({ score: percentage, correct: correctCount, total: totalQuestions, categoryId });
     recordSimuladoForMissions(respostas.map((r) => ({ categoryId: r.categoryId, correct: r.correct })));
+
+    // Com sessão iniciada, o servidor (D1) passa a ser a fonte de verdade —
+    // o registo local acima fica como respaldo para quando não há sessão.
+    if (user) {
+      recordAttemptOnServer({
+        categoryId,
+        totalQuestions,
+        correctCount,
+        durationSeconds,
+        categoryProgress,
+        longestCorrectStreak: longestCorrectStreak(respostas),
+      })
+        .then((result) => setUser(result.user))
+        .catch((e) => console.error("Failed to sync attempt to server", e));
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

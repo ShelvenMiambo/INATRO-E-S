@@ -3,6 +3,7 @@ import { Link } from 'wouter';
 import { Navigation } from '@/components/navigation';
 import { useGamification } from '@/lib/gamification';
 import { useAuth } from '@/contexts/auth';
+import { useServerState } from '@/lib/server-progress';
 import { Button } from '@/components/ui/button';
 import { ChevronLeft, Trophy, Target, Calendar, TrendingUp, Clock, Star } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -65,30 +66,35 @@ function CustomTooltip({ active, payload, label }: {
 export default function Historico() {
   const { state } = useGamification();
   const { user } = useAuth();
-  const history = useMemo(() => loadHistory(), []);
+  const { state: serverState } = useServerState(!!user);
+  const localHistory = useMemo(() => loadHistory(), []);
 
-  // If no real history saved, generate demo data from gamification state
+  const totalSimulados = user && serverState ? serverState.user.totalSimulados : state.totalSimulados;
+  const bestScore = user && serverState ? serverState.user.bestScore : state.bestScore;
+
   const chartData = useMemo(() => {
-    if (history.length > 0) {
-      return history.slice(-20).map((h) => ({
+    if (user && serverState) {
+      return serverState.history
+        .slice()
+        .reverse()
+        .slice(-20)
+        .map((h) => ({
+          date: new Date(h.date).toLocaleDateString('pt-PT', { day: '2-digit', month: 'short' }),
+          score: h.score,
+        }));
+    }
+
+    if (localHistory.length > 0) {
+      return localHistory.slice(-20).map((h) => ({
         date: new Date(h.date).toLocaleDateString('pt-PT', { day: '2-digit', month: 'short' }),
         score: h.score,
       }));
     }
 
-    // Generate plausible demo data from totalSimulados
-    const count = Math.min(state.totalSimulados, 15);
-    if (count === 0) return [];
-
-    return Array.from({ length: count }, (_, i) => {
-      const base = 40 + Math.floor(Math.random() * 30);
-      const trend = Math.floor((i / count) * 25); // improving trend
-      return {
-        date: `Sessão ${i + 1}`,
-        score: Math.min(100, base + trend),
-      };
-    });
-  }, [history, state.totalSimulados]);
+    // Sem sessão e sem histórico local: nada para mostrar (deixa de se
+    // inventar dados de demonstração — enganava mais do que ajudava).
+    return [];
+  }, [user, serverState, localHistory]);
 
   const avgScore = chartData.length > 0
     ? Math.round(chartData.reduce((s, d) => s + d.score, 0) / chartData.length)
@@ -126,14 +132,14 @@ export default function Historico() {
           {[
             {
               label: 'Simulados',
-              value: state.totalSimulados,
+              value: totalSimulados,
               icon: Target,
               color: 'text-primary',
               bg: 'bg-primary/10',
             },
             {
               label: 'Melhor Nota',
-              value: `${state.bestScore}%`,
+              value: `${bestScore}%`,
               icon: Trophy,
               color: 'text-yellow-500',
               bg: 'bg-yellow-500/10',

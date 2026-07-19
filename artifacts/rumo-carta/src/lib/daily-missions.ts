@@ -42,7 +42,7 @@ export function getTodayStats(): DailyStats {
   return all[todayKey()] ?? emptyStats();
 }
 
-function longestCorrectStreak(respostas: { correct: boolean }[]): number {
+export function longestCorrectStreak(respostas: { correct: boolean }[]): number {
   let longest = 0;
   let current = 0;
   for (const r of respostas) {

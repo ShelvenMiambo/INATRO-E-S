@@ -1,6 +1,8 @@
 import { eq, inArray, asc, sql } from "drizzle-orm";
 import { getDb, type Env as DbEnv } from "../functions/_shared/db";
 import { categories, questions, options } from "../functions/_shared/schema";
+import { handleRegister, handleLogin, handleLogout, handleMe } from "./auth";
+import { handleRecordAttempt, handleGetState } from "./progress";
 
 export interface Env extends DbEnv {
   ASSETS: Fetcher;
@@ -115,6 +117,14 @@ export default {
     if (url.pathname === "/api/categorias") return handleCategorias(env);
     if (url.pathname === "/api/simulado/count") return handleSimuladoCount(env);
     if (url.pathname === "/api/simulado/questoes") return handleSimuladoQuestoes(env, url);
+
+    if (url.pathname === "/api/auth/register" && request.method === "POST") return handleRegister(request, env);
+    if (url.pathname === "/api/auth/login" && request.method === "POST") return handleLogin(request, env);
+    if (url.pathname === "/api/auth/logout" && request.method === "POST") return handleLogout(request, env);
+    if (url.pathname === "/api/auth/me" && request.method === "GET") return handleMe(request, env);
+
+    if (url.pathname === "/api/me/attempts" && request.method === "POST") return handleRecordAttempt(request, env);
+    if (url.pathname === "/api/me/state" && request.method === "GET") return handleGetState(request, env);
 
     // Tudo o resto: ficheiros estáticos do build do Vite (dist/public).
     return env.ASSETS.fetch(request);

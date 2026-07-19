@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { Link } from "wouter";
 import { useGamification, getXPForNextLevel, getLevelName } from "@/lib/gamification";
 import { getMissionsStatus, claimNewlyCompletedMissions, type MissionStatus } from "@/lib/daily-missions";
+import { useAuth } from "@/contexts/auth";
+import { useServerState } from "@/lib/server-progress";
 import { Navigation } from "@/components/navigation";
 import { Flame, Star, Trophy, Target, ChevronRight, Lock, CheckCircle2, Play, CarFront } from "lucide-react";
 import { useGetCategorias } from "@workspace/api-client-react";
@@ -17,23 +19,44 @@ const ACHIEVEMENTS = [
   { slug: "perfeito", name: "Perfeição", desc: "Marcou 100% num simulado" },
 ];
 
+const MISSION_TITLES: Record<string, string> = {
+  simulado: "Completa 1 simulado hoje",
+  categorias: "Estuda 2 categorias diferentes",
+  streak15: "Acerta 15 questões seguidas",
+};
+
 export default function Dashboard() {
-  const { state, checkAndUpdateStreak, addXP } = useGamification();
+  const { user } = useAuth();
+  const { state: localState, checkAndUpdateStreak, addXP } = useGamification();
   const { data: categorias, isLoading } = useGetCategorias();
+  const { state: serverState } = useServerState(!!user);
 
   const [missions, setMissions] = useState<MissionStatus[]>(() => getMissionsStatus());
 
   useEffect(() => {
+    if (user) return; // o servidor já trata disto em cada POST /api/me/attempts
     checkAndUpdateStreak();
 
     const newlyDone = claimNewlyCompletedMissions();
     setMissions(getMissionsStatus());
     newlyDone.forEach((m) => addXP(m.xp, `Missão: ${m.title}`));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [checkAndUpdateStreak]);
+  }, [user, checkAndUpdateStreak]);
 
-  const xpNeeded = getXPForNextLevel(state.level);
-  const xpProgress = Math.min(100, Math.round((state.xp / xpNeeded) * 100));
+  // Estado efetivo: vem do servidor (D1) quando autenticado — sincronizado
+  // entre dispositivos — ou do localStorage quando é um convidado.
+  const level = user && serverState ? serverState.user.level : localState.level;
+  const xp = user && serverState ? serverState.user.xp : localState.xp;
+  const streak = user && serverState ? serverState.user.streakCurrent : localState.streak;
+  const bestScore = user && serverState ? serverState.user.bestScore : localState.bestScore;
+  const achievements: string[] = user && serverState ? JSON.parse(serverState.user.achievements) : localState.achievements;
+  const effectiveMissions = user && serverState ? serverState.missions : missions;
+  const categoryProgress: Record<string, { seen: number; correct: number }> = user && serverState
+    ? Object.fromEntries(serverState.categoryStats.map((c) => [c.categoryId, { seen: c.seen, correct: c.correct }]))
+    : localState.categoryProgress;
+
+  const xpNeeded = getXPForNextLevel(level);
+  const xpProgress = Math.min(100, Math.round((xp / xpNeeded) * 100));
 
   return (
     <Navigation>
@@ -43,13 +66,13 @@ export default function Dashboard() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="col-span-2 md:col-span-2 bg-gradient-to-br from-primary/20 to-primary/5 rounded-3xl p-6 border border-primary/20 flex flex-col justify-center relative overflow-hidden">
             <div className="absolute -right-4 -bottom-4 w-32 h-32 bg-primary/20 rounded-full blur-3xl"></div>
-            <span className="text-primary font-bold text-sm uppercase tracking-wider mb-2">Nível {state.level}</span>
+            <span className="text-primary font-bold text-sm uppercase tracking-wider mb-2">Nível {level}</span>
             <div className="flex items-baseline gap-2 mb-3">
-              <h2 className="text-3xl font-black">{getLevelName(state.level)}</h2>
+              <h2 className="text-3xl font-black">{getLevelName(level)}</h2>
             </div>
             <div className="space-y-2">
               <div className="flex justify-between text-sm font-medium">
-                <span>{state.xp} XP</span>
+                <span>{xp} XP</span>
                 <span className="text-muted-foreground">{xpNeeded} XP</span>
               </div>
               <Progress value={xpProgress} className="h-3 bg-primary/20" />
@@ -57,18 +80,18 @@ export default function Dashboard() {
           </div>
 
           <div className="bg-card rounded-3xl p-6 border border-border/50 flex flex-col items-center justify-center text-center shadow-sm">
-            <div className={`w-14 h-14 rounded-full flex items-center justify-center mb-3 ${state.streak > 0 ? 'bg-accent/20 text-accent-foreground' : 'bg-muted text-muted-foreground'}`}>
-              <Flame className={`w-7 h-7 ${state.streak > 0 ? 'fill-accent-foreground/20' : ''}`} />
+            <div className={`w-14 h-14 rounded-full flex items-center justify-center mb-3 ${streak > 0 ? 'bg-accent/20 text-accent-foreground' : 'bg-muted text-muted-foreground'}`}>
+              <Flame className={`w-7 h-7 ${streak > 0 ? 'fill-accent-foreground/20' : ''}`} />
             </div>
-            <span className="text-3xl font-black mb-1">{state.streak}</span>
-            <span className="text-sm font-medium text-muted-foreground">{state.streak === 1 ? 'Dia seguido' : 'Dias seguidos'}</span>
+            <span className="text-3xl font-black mb-1">{streak}</span>
+            <span className="text-sm font-medium text-muted-foreground">{streak === 1 ? 'Dia seguido' : 'Dias seguidos'}</span>
           </div>
 
           <div className="bg-card rounded-3xl p-6 border border-border/50 flex flex-col items-center justify-center text-center shadow-sm">
-            <div className={`w-14 h-14 rounded-full flex items-center justify-center mb-3 ${state.bestScore >= 80 ? 'bg-success/20 text-success' : 'bg-muted text-muted-foreground'}`}>
+            <div className={`w-14 h-14 rounded-full flex items-center justify-center mb-3 ${bestScore >= 80 ? 'bg-success/20 text-success' : 'bg-muted text-muted-foreground'}`}>
               <Trophy className="w-7 h-7" />
             </div>
-            <span className="text-3xl font-black mb-1">{state.bestScore}%</span>
+            <span className="text-3xl font-black mb-1">{bestScore}%</span>
             <span className="text-sm font-medium text-muted-foreground">Melhor Simulado</span>
           </div>
         </div>
@@ -99,7 +122,7 @@ export default function Dashboard() {
             </h3>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {missions.map((mission) => (
+            {effectiveMissions.map((mission) => (
               <div key={mission.id} className={`p-5 rounded-3xl border-2 transition-all ${mission.done ? 'bg-success/5 border-success/20' : 'bg-card border-border/50'}`}>
                 <div className="flex justify-between items-start mb-3">
                   <div className={`w-8 h-8 rounded-full flex items-center justify-center border-2 ${mission.done ? 'bg-success text-success-foreground border-success' : 'border-muted-foreground/30'}`}>
@@ -109,7 +132,7 @@ export default function Dashboard() {
                     <Star className="w-3 h-3 fill-accent-foreground" /> +{mission.xp}
                   </span>
                 </div>
-                <p className={`font-medium ${mission.done ? 'text-muted-foreground line-through' : ''}`}>{mission.title}</p>
+                <p className={`font-medium ${mission.done ? 'text-muted-foreground line-through' : ''}`}>{mission.title ?? MISSION_TITLES[mission.id]}</p>
                 {!mission.done && (
                   <div className="mt-3 flex items-center gap-2">
                     <Progress value={(mission.current / mission.target) * 100} className="h-1.5 flex-1" />
@@ -139,7 +162,7 @@ export default function Dashboard() {
                 <div key={i} className="h-32 bg-muted/50 animate-pulse rounded-3xl"></div>
               ))
             ) : categorias?.slice(0, 4).map((cat) => {
-              const progress = state.categoryProgress[cat.id];
+              const progress = categoryProgress[cat.id];
               const accuracy = progress && progress.seen > 0 
                 ? Math.round((progress.correct / progress.seen) * 100) 
                 : 0;
@@ -169,7 +192,7 @@ export default function Dashboard() {
           </h3>
           <div className="flex gap-4 overflow-x-auto pb-4 snap-x px-2 -mx-2">
             {ACHIEVEMENTS.map((ach) => {
-              const earned = state.achievements.includes(ach.slug);
+              const earned = achievements.includes(ach.slug);
               return (
                 <div 
                   key={ach.slug} 
