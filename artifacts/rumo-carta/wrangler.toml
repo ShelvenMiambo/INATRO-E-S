@@ -1,13 +1,6 @@
-name = "inatroes"
-main = "worker/index.ts"
+name = "rumo-carta"
+pages_build_output_dir = "dist/public"
 compatibility_date = "2025-06-01"
-
-# Ficheiros estáticos gerados pelo `vite build` (dist/public). O worker
-# (worker/index.ts) trata primeiro dos pedidos a /api/*; tudo o resto
-# cai neste binding, que serve os ficheiros do dist/public.
-[assets]
-directory = "./dist/public"
-binding = "ASSETS"
 
 # Depois de correr `npm run cf:d1:create`, copia o database_id devolvido
 # para aqui. Sem isto, o binding "DB" não funciona em produção (o dev
