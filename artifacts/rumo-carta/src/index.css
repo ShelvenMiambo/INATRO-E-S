@@ -144,3 +144,10 @@
     @apply bg-background text-foreground font-sans antialiased;
   }
 }
+
+/* Espaço extra para a barra de gestos do iPhone (só tem efeito com
+   viewport-fit=cover no <meta viewport>, ver index.html). Sem isto a
+   barra de navegação inferior fica escondida atrás da home indicator. */
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}

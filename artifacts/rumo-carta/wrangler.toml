@@ -8,6 +8,11 @@ compatibility_date = "2025-06-01"
 [assets]
 directory = "./dist/public"
 binding = "ASSETS"
+# Sem isto, abrir/atualizar diretamente uma rota da SPA (ex: /aprender/codigo,
+# /dashboard) dá 404 — o binding só serve ficheiros que existem fisicamente
+# em dist/public. Isto faz cair sempre no index.html e deixar o wouter
+# (client-side router) tratar da rota.
+not_found_handling = "single-page-application"
 
 # Depois de correr `npm run cf:d1:create`, copia o database_id devolvido
 # para aqui. Sem isto, o binding "DB" não funciona em produção (o dev
