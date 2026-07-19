@@ -151,20 +151,7 @@ export function Navigation({ children }: { children: React.ReactNode }) {
         <div className="flex items-center justify-around h-16 px-2">
           {navItems.slice(0, 5).map((item) => {
             const Icon = item.icon;
-            const isActive = location === item.href || (item.href !== '/' && location.startsWith(item.href) && item.href !== '/simulado');
-            
-            if (item.primary) {
-              return (
-                <Link key={item.href} href={item.href} className="flex flex-col items-center justify-center -mt-6 relative z-10" data-testid={`tab-${item.label}`}>
-                  <div className="bg-background rounded-full p-1.5">
-                    <div className="w-14 h-14 bg-primary text-primary-foreground rounded-full flex items-center justify-center shadow-lg shadow-primary/30">
-                      <Icon className="w-6 h-6 ml-0.5" fill="currentColor" />
-                    </div>
-                  </div>
-                  <span className="text-[10px] font-bold text-primary mt-1">{item.label}</span>
-                </Link>
-              );
-            }
+            const isActive = location === item.href || (item.href !== '/' && location.startsWith(item.href));
 
             return (
               <Link key={item.href} href={item.href} className="flex flex-col items-center justify-center w-16 h-full gap-1" data-testid={`tab-${item.label}`}>
