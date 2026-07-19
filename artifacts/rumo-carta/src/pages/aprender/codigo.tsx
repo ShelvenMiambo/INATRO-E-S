@@ -438,8 +438,31 @@ export default function AprenderCodigo() {
           </div>
 
           {!filteredMultas ? (
-            <div className="p-8 text-center text-muted-foreground bg-card border border-dashed border-border/50 rounded-3xl text-sm">
-              Escreve acima para pesquisar entre as {TOTAL_MULTAS} transgressões e respectivas multas.
+            <div className="bg-card rounded-3xl border border-border/50 p-2 shadow-sm">
+              <Accordion type="single" collapsible className="w-full">
+                {GRUPOS_MULTAS.map((grupo) => (
+                  <AccordionItem key={grupo.id} value={grupo.id} className="border-b border-border/20 last:border-0">
+                    <AccordionTrigger className="hover:bg-muted/30 px-4 py-4 rounded-2xl transition-colors data-[state=open]:bg-muted/40 data-[state=open]:text-destructive">
+                      <div className="flex items-center justify-between w-full pr-4 text-left">
+                        <span className="font-bold text-sm">{grupo.titulo}</span>
+                        <Badge variant="outline" className="text-[10px] shrink-0">{grupo.itens.length}</Badge>
+                      </div>
+                    </AccordionTrigger>
+                    <AccordionContent className="px-4 pb-4 pt-1 space-y-2">
+                      {grupo.itens.map((item, i) => (
+                        <div key={i} className="p-3 bg-muted/30 rounded-xl">
+                          <p className="font-medium text-sm text-foreground leading-snug mb-2">{item.infracao}</p>
+                          <div className="flex flex-wrap gap-2 text-xs">
+                            <span className="text-muted-foreground bg-background px-2.5 py-1 rounded-lg">{item.artigo}</span>
+                            <span className="font-bold text-destructive bg-destructive/10 px-2.5 py-1 rounded-lg">{item.multa}</span>
+                            <span className="text-muted-foreground bg-background px-2.5 py-1 rounded-lg">{item.responsavel}</span>
+                          </div>
+                        </div>
+                      ))}
+                    </AccordionContent>
+                  </AccordionItem>
+                ))}
+              </Accordion>
             </div>
           ) : filteredMultas.length === 0 ? (
             <div className="p-8 text-center text-muted-foreground bg-card border border-border/50 rounded-3xl text-sm">
