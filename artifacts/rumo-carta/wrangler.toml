@@ -15,5 +15,5 @@ binding = "ASSETS"
 # local em .wrangler/state).
 [[d1_databases]]
 binding = "DB"
-database_name = "rumocarta-db"
-database_id = "PREENCHER_APOS_CF_D1_CREATE"
+database_name = "rumocarta_db"
+database_id = "5df2c85c-ad8a-4ce5-93f2-0c8fe5563b62"

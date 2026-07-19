@@ -9,9 +9,9 @@
     "serve": "vite preview --config vite.config.ts --host 0.0.0.0",
     "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p functions/tsconfig.json",
     "cf:dev": "npm run build && wrangler dev",
-    "cf:d1:create": "wrangler d1 create rumocarta-db",
-    "cf:d1:migrate:local": "wrangler d1 execute rumocarta-db --local --file=./functions/_shared/schema.sql",
-    "cf:d1:migrate:remote": "wrangler d1 execute rumocarta-db --remote --file=./functions/_shared/schema.sql",
+    "cf:d1:create": "wrangler d1 create rumocarta_db",
+    "cf:d1:migrate:local": "wrangler d1 execute rumocarta_db --local --file=./functions/_shared/schema.sql",
+    "cf:d1:migrate:remote": "wrangler d1 execute rumocarta_db --remote --file=./functions/_shared/schema.sql",
     "cf:d1:seed:local": "tsx scripts/seed-d1.ts --local",
     "cf:d1:seed:remote": "tsx scripts/seed-d1.ts --remote",
     "cf:deploy": "npm run build && wrangler deploy"

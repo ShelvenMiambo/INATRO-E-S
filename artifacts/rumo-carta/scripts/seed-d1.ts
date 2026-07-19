@@ -96,7 +96,7 @@ function main() {
 
   execFileSync(
     "npx",
-    ["wrangler", "d1", "execute", "rumocarta-db", mode, `--file=${sqlPath}`],
+    ["wrangler", "d1", "execute", "rumocarta_db", mode, `--file=${sqlPath}`],
     { cwd: projectRoot, stdio: "inherit", shell: true }
   );
 
